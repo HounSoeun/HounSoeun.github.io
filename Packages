@@ -1,0 +1,77 @@
+Package: hounsoeun.bioprotectxs
+Version: 4.5-17
+Architecture: iphoneos-arm
+Maintainer: HounSoeun
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader, sileoturk.limneosos
+Conflicts: net.limneos.bioprotectxs
+Filename: ./debs/hounsoeun.bioprotectxs_4.5-17_iphoneos-arm.deb
+Size: 832566
+MD5sum: 5f173d435f834d4db60c38d9575a0426
+SHA1: 24d5ec010f5415dcfe1684b1d97c9bb2cae323be
+SHA256: febdc13f27baba75af26aa5267b426db3b1a055c630cfcc08daea3298cb8fb24
+Section: Tweak
+Description: Protect your app with Face ID, Touch ID or passcode!
+Author: Elias Limneos
+Name: BioProtect XS (iOS 12/13/14)
+
+Package: hounsoeun.cydiaiapipcracker
+Version: 1.0-2+debug
+Architecture: iphoneos-arm
+Maintainer: HounSoeun
+Installed-Size: 296
+Depends: mobilesubstrate
+Filename: ./debs/hounsoeun.cydiaiapipcracker_1.0-2+debug_iphoneos-arm.deb
+Size: 19886
+MD5sum: 876280ef91346d9fabb85f8ba5da97cd
+SHA1: 4a3db7a9791ecfd879007a6a7876bb5779258ab3
+SHA256: 628e3216ae65b54f2aed8ffd0088cb4a5d0241d9337a8034c8ac972bcef92e9c
+Section: Tweaks
+Description: Free in app purchase will not work on every game or app but work on lots of games and app or you can do this try it out see if it work for your game or app.
+Author: HounSoeun
+Name: iAP Tools4cydia
+
+Package: hounsoeun.dlgmemorinjected
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: HounSoeun
+Depends: mobilesubstrate, preferenceloader, applist
+Filename: ./debs/hounsoeun.dlgmemorinjected_1.1_iphoneos-arm.deb
+Size: 540366
+MD5sum: 3f33994b75172c79e177f7296733be7e
+SHA1: 4c79935097f75760b7a75467c22383cab5a3e6fe
+SHA256: ed02d37256c27515774ef2f6eb77a28809a8505ac3c3782a11e83cd06c94d867
+Section: Tweaks
+Description: injection library that allows you to alter memory in app. Once installed go into settings go to DLGMemorInjected and select the app you want to hack the memory in. Great alternative to gameplayer, Gamegem and iGameGuardian.
+Author: HounSoeun
+Name: DLGMemor Injected
+
+Package: hounsoeun.itorrent
+Version: 1.8.3
+Architecture: iphoneos-arm
+Maintainer: HounSoeun
+Filename: ./debs/hounsoeun.itorrent_1.8.3_iphoneos-arm.deb
+Size: 20998118
+MD5sum: 69ec9d9b751f3a9e93597ee6a5749ed0
+SHA1: 45c647c2694ff994d2a9ecb4ff49350c43358f9f
+SHA256: 99028f7ebce74f564bc7dfb5ce0104a4e66aa64d20e63fb3260058005bde81bd
+Section: Multimedia
+Description: Download Torrent through your iDevice via .torrent files or magnet urls. Background Downloading is also available. Modern iTorrent app for latest devices.
+Author: HounSoeun
+Name: iTorrent
+
+Package: sileoturk.limneosos
+Version: 2.0.2
+Architecture: iphoneos-arm
+Maintainer: Elias
+Depends: firmware ( >= 8), mobilesubstrate
+Conflicts: sileoturk.limneososs, com.trappledestek.limneosos, ru.rejail.limneosos
+Filename: ./debs/hounsoeun.limneosos_2.0.deb
+Size: 35674
+MD5sum: e4cb95f5db4dd5810beee8c6e9fb4408
+SHA1: 7cea5390f1d39eef1a9925992c793b64d1e69b9e
+SHA256: b97b6336d0e47148ef2c8e5fe40ff5ae38d608a0ef3a93f46dff2c8618737969
+Section: Tweaks
+Priority: optional
+Author: Elias Limneos
+Name: Limneos Crack
+
