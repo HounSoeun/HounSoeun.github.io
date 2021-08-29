@@ -80,11 +80,12 @@ Architecture: iphoneos-arm
 Maintainer: HounSoeun
 Depends: mobilesubstrate, hounsoeun.mediaboxhd
 Filename: ./debs/hounsoeun.mediaboxhdpremium_2.4.9.deb
-Size: 13360
-MD5sum: 4a62000430b616582283c835a503d695
-SHA1: 2722b6a267f23409f14c029bf7a8d1a89c71b7e9
-SHA256: 1bd45f3bd6fcbacee2b0c1bbc2f18c0bb55739911b91654e8087ce05852b1965
+Size: 13374
+MD5sum: bc8d2e2c443f348b915a88df9b14111a
+SHA1: ca94a69f65f0702fb2ebb2742fa75d491fa800e0
+SHA256: 8249aaf8b92f68cc4c59d39bd45c70d95b13a7c332b9f29afd2a1acadf803807
 Section: Tweaks
+Description: mediaboxhd premium
 Author: Mediaboxhd.net
 Name: MediaBox HD PREMIUM
 
