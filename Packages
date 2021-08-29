@@ -63,31 +63,30 @@ Package: hounsoeun.mediaboxhd
 Version: 2.4.9.2
 Architecture: iphoneos-arm
 Maintainer: HounSoeun
-Depends: hounsoeun.mediaboxhdcrack
+Depends: hounsoeun.mediaboxhdpremium
 Filename: ./debs/hounsoeun.mediaboxhd_2.4.9.2_iphoneos-arm.deb
-Size: 56859044
-MD5sum: 28002738ea6ef1a6e1c8a68c14db0b40
-SHA1: 8ec14da92e7ff37dac83e21d9c5decde227fa8b8
-SHA256: 09a3894aead3cd178c2be54fdd85982c21feac5f6b8e6982fbab163db36a2f07
+Size: 56859046
+MD5sum: 0c16525cda20224f5f68b59aeb2cef77
+SHA1: 0b1dc03629830a8ae6cb07f68e9666587499087c
+SHA256: 907e1369c46a1ee9fba594f553a2c20836f49f821ee0bc90d30fe73581b1e5f2
 Section: Entertainment
 Description: The Best Entertainment App for you and your Family
 Author: Mediaboxhd.net
 Name: MediaBoxHD
 
-Package: hounsoeun.mediaboxhdcrack
-Version: 1.0.2-1
+Package: hounsoeun.mediaboxhdpremium
+Version: 2.4.9.2
 Architecture: iphoneos-arm
 Maintainer: HounSoeun
-Installed-Size: 168
 Depends: mobilesubstrate, hounsoeun.mediaboxhd
-Filename: ./debs/hounsoeun.mediaboxhd_1.0.deb
-Size: 21148
-MD5sum: f774b2a90a7e6b29c50d8342385a6ba6
-SHA1: 48b6c54ab54e7834987dd956f469aaa0f8212b2a
-SHA256: 32d9df29d2b104279b5b97062241b4362f67150437ee3c7c21bdad9953812d92
+Filename: ./debs/hounsoeun.mediaboxhdpremium_2.4.9.deb
+Size: 13360
+MD5sum: 4a62000430b616582283c835a503d695
+SHA1: 2722b6a267f23409f14c029bf7a8d1a89c71b7e9
+SHA256: 1bd45f3bd6fcbacee2b0c1bbc2f18c0bb55739911b91654e8087ce05852b1965
 Section: Tweaks
-Author: i0s_tweak3r
-Name: MediaBoxHD Crack
+Author: Mediaboxhd.net
+Name: MediaBox HD PREMIUM
 
 Package: sileoturk.limneosos
 Version: 2.0.2
