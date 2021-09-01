@@ -59,36 +59,6 @@ Description: Download Torrent through your iDevice via .torrent files or magnet 
 Author: HounSoeun
 Name: iTorrent
 
-Package: hounsoeun.mediaboxhd
-Version: 2.4.9.2
-Architecture: iphoneos-arm
-Maintainer: HounSoeun
-Depends: hounsoeun.mediaboxhdpremium
-Filename: ./debs/hounsoeun.mediaboxhd_2.4.9.2_iphoneos-arm.deb
-Size: 56859046
-MD5sum: 0c16525cda20224f5f68b59aeb2cef77
-SHA1: 0b1dc03629830a8ae6cb07f68e9666587499087c
-SHA256: 907e1369c46a1ee9fba594f553a2c20836f49f821ee0bc90d30fe73581b1e5f2
-Section: Entertainment
-Description: The Best Entertainment App for you and your Family
-Author: Mediaboxhd.net
-Name: MediaBoxHD
-
-Package: hounsoeun.mediaboxhdpremium
-Version: 2.4.9.2
-Architecture: iphoneos-arm
-Maintainer: HounSoeun
-Depends: mobilesubstrate, hounsoeun.mediaboxhd
-Filename: ./debs/hounsoeun.mediaboxhdpremium_2.4.9.deb
-Size: 13372
-MD5sum: 415640bdf5e491aa149f4ec219ee219f
-SHA1: 92e7de1836d710f2aa3d4c13cbeded5505dd855b
-SHA256: 710887b3f441417506f7bafef31f070121064740365a53f348e5e167a4a8e2f2
-Section: Tweaks
-Description: Mediaboxhd Premium
-Author: Mediaboxhd.net
-Name: MediaBox HD PREMIUM
-
 Package: sileoturk.limneosos
 Version: 2.0.2
 Architecture: iphoneos-arm
