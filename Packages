@@ -30,6 +30,21 @@ Description: Free in app purchase will not work on every game or app but work on
 Author: HounSoeun
 Name: iAP Tools4cydia
 
+Package: hounsoeun.dlgmemorinjected
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: HounSoeun
+Depends: mobilesubstrate, preferenceloader, applist
+Filename: ./debs/hounsoeun.dlgmemorinjected_1.1_iphoneos-arm.deb
+Size: 367072
+MD5sum: a82b81eea1280f6060c3149e0686c599
+SHA1: 2f16a7560778c95f00542bbe6cb171c985eb465c
+SHA256: 31ceb2e92c32d2b9c086d098f2cb6f1b2bf6cd398a60b6729f7ab19ad9c4b4ea
+Section: Tweaks
+Description: injection library that allows you to alter memory in app. Once installed go into settings go to DLGMemorInjected and select the app you want to hack the memory in. Great alternative to gameplayer, Gamegem and iGameGuardian.
+Author: HounSoeun
+Name: DLGMemor Injected
+
 Package: hounsoeun.itorrent
 Version: 1.8.3
 Architecture: iphoneos-arm
