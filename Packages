@@ -5,11 +5,12 @@ Maintainer: Proff
 Depends: firmware (>= 11.0), mobilesubstrate
 Conflicts: com.unlimapps.uaupdatetools
 Filename: ./debs/hounsoeun.appstoreplusplusnew_0.9.deb
-Size: 2987956
-MD5sum: b9bd9df849f08d708ede8a3795463475
-SHA1: 1bd554fb293d03d6f215aa4c9c8ab057e7e3ba24
-SHA256: fdf5ba7e4867f440055078a407e08e4b854d53474c5cc01d4519cf1d2d2bae24
+Size: 2987980
+MD5sum: 4850b69f45373868cd136c31f1adce1c
+SHA1: 9a713f8631b5786159403f1b35612600456d7017
+SHA256: d2499d112bde66c5a22b2f360cdc456246d8d6d405fe8a9184fa15d96c5db7a8
 Section: Tweaks
+Description: Software for downloade appstore
 Author: CokePokes
 Name: AppStore++
 
