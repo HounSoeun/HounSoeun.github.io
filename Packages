@@ -1,21 +1,17 @@
-Package: com.miro.uyou
-Version: 1.7
+Package: hounsoeun.appstoreplusplusnew
+Version: 0.9.16-2
 Architecture: iphoneos-arm
-Maintainer: MiRO <tweaks_support@miro92.com>
-Installed-Size: 30904
-Depends: firmware (>=13.0), mobilesubstrate
-Conflicts: com.miro.easyyt, com.miro.ytnoshorts, com.ps.noytpremium, com.ps.youarethere
-Filename: ./debs/com.miro.uyou_1.7_iphoneos-arm .deb
-Size: 14683384
-MD5sum: b286cfba0a2e33b8250c8dabbd2d3557
-SHA1: 80a47a59aa8c33e3c1f1bca168000b325aad4590
-SHA256: c134fb70b665ae435970cf4120bb86c40d0f604db7f0bce50651cc923ac04c25
+Maintainer: Proff
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: com.unlimapps.uaupdatetools
+Filename: ./debs/hounsoeun.appstoreplusplusnew_0.9.deb
+Size: 2987956
+MD5sum: b9bd9df849f08d708ede8a3795463475
+SHA1: 1bd554fb293d03d6f215aa4c9c8ab057e7e3ba24
+SHA256: fdf5ba7e4867f440055078a407e08e4b854d53474c5cc01d4519cf1d2d2bae24
 Section: Tweaks
-Description: The best tweak for the YouTube app
-Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
-Author: MiRO <tweaks_support@miro92.com>
-Icon: file:////Library/Application Support/uYouBundle.bundle/icon_clipped.png
-Name: uYou
+Author: CokePokes
+Name: AppStore++
 
 Package: hounsoeun.cydiaiapipcracker
 Version: 1.0-2+debug
@@ -61,4 +57,22 @@ Section: Multimedia
 Description: Download Torrent through your iDevice via .torrent files or magnet urls. Background Downloading is also available. Modern iTorrent app for latest devices.
 Author: HounSoeun
 Name: iTorrent
+
+Package: hounsoeun.uyou
+Version: 1.7
+Architecture: iphoneos-arm
+Maintainer: MiRO <tweaks_support@miro92.com>
+Installed-Size: 30904
+Depends: firmware (>=13.0), mobilesubstrate
+Filename: ./debs/hounsoeun.uyou_1.7_iphoneos-arm.deb
+Size: 14683336
+MD5sum: eca2532278268a3c303c6d1d90e38545
+SHA1: dd63cd6a635a7844959531ea0cc6958b7b596992
+SHA256: df763497d61883bc94814d6f8098a72c0a1e90b6a0c253b7fa7f72044bc45749
+Section: Tweaks
+Description: The best tweak for the YouTube app
+Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
+Author: MiRO <tweaks_support@miro92.com>
+Icon: file:////Library/Application Support/uYouBundle.bundle/icon_clipped.png
+Name: uYou
 
