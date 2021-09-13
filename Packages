@@ -1,3 +1,22 @@
+Package: com.miro.uyou
+Version: 1.7
+Architecture: iphoneos-arm
+Maintainer: MiRO <tweaks_support@miro92.com>
+Installed-Size: 30904
+Depends: firmware (>=13.0), mobilesubstrate
+Conflicts: com.miro.easyyt, com.miro.ytnoshorts, com.ps.noytpremium, com.ps.youarethere
+Filename: ./debs/com.miro.uyou_1.7_iphoneos-arm .deb
+Size: 14683384
+MD5sum: b286cfba0a2e33b8250c8dabbd2d3557
+SHA1: 80a47a59aa8c33e3c1f1bca168000b325aad4590
+SHA256: c134fb70b665ae435970cf4120bb86c40d0f604db7f0bce50651cc923ac04c25
+Section: Tweaks
+Description: The best tweak for the YouTube app
+Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
+Author: MiRO <tweaks_support@miro92.com>
+Icon: file:////Library/Application Support/uYouBundle.bundle/icon_clipped.png
+Name: uYou
+
 Package: hounsoeun.cydiaiapipcracker
 Version: 1.0-2+debug
 Architecture: iphoneos-arm
