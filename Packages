@@ -21,12 +21,12 @@ Maintainer: hounsoeun
 Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader, sileoturk.limneosos
 Conflicts: net.limneos.bioprotectxs
 Filename: ./debs/hounsoeun.bioprotectxs_4.5-17_iphoneos-arm.deb
-Size: 832538
-MD5sum: 5ffd6a2a5bed8ad3db7cb05ef29724bf
-SHA1: 76c37311ddbad9afcb87cb47ed569da8d2bbeaa3
-SHA256: 72212a6f479ad2c752eb596bc431f367a523792f2ec0fd0bd51140a4ae5df761
+Size: 832668
+MD5sum: 315f04f8c684669b15accebb9526cea3
+SHA1: 61a765b95fd5902b3c9c452fb83120a29149443b
+SHA256: 80cd424f7b60764de28b614236a8cf25cf55fa86251e652225832a1359c1202d
 Section: Tweaks
-Description: Touch ID/Face ID
+Description: Protect your apps with Touch/Face ID!
 Author: Elias Limneos
 Name: BioProtect XS (iOS 12/13/14)
 
@@ -37,13 +37,13 @@ Maintainer: opa334
 Installed-Size: 3288
 Depends: firmware (>=11.0), mobilesubstrate, com.opa334.altlist (>=1.0.5), com.rpetrich.rocketbootstrap, preferenceloader, com.opa334.libundirect (>=1.1) | firmware (<<14.0)
 Conflicts: com.opa334.cranelite, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
-Filename: ./debs/hounsoeun.crane_1.1.deb
-Size: 1063836
-MD5sum: 525f90808ed1e7eea28126626d05df46
-SHA1: aa2c7fa0520aaa1bc07b8d77ae22a97781e2f6c5
-SHA256: 62eb236d1e9b4ee16b17a19a1f1eb6dd5d97ac7f17332877058aa73de67e784a
+Filename: ./debs/hounsoeun.crane_1.1.4-4_iphoneos-arm.deb
+Size: 1064128
+MD5sum: 6ea34a9697e40799f46051426ef2445b
+SHA1: d80c6679dc7b79a2e987530a8a91c7f1f986417b
+SHA256: f6bc55fe5bb3bb0534aaa7c16134c9e6230dc0597898be04acb013db212170c2
 Section: Tweaks
-Description: Multiple containers off your application
+Description: Multiple containers for your application
 Author: opa334
 Name: Crane
 
@@ -92,23 +92,6 @@ Description: Download Torrent through your iDevice via .torrent files or magnet 
 Author: HounSoeun
 Name: iTorrent
 
-Package: hounsoeun.limneosos
-Version: 2.0.2
-Architecture: iphoneos-arm
-Maintainer: HounSoeun
-Depends: firmware ( >= 8), mobilesubstrate
-Conflicts: sileoturk.limneososs, com.trappledestek.limneosos, ru.rejail.limneosos
-Filename: ./debs/hounsoeun.limneosos_2.0.2_iphoneos-arm.deb
-Size: 36964
-MD5sum: 522f626600c239e96dadc50fef623ad1
-SHA1: fde8f94734e625a614af745263f4cd81097dc627
-SHA256: 909560359aa18543bfdbf7f863c9fff3357a1675db1e713984175620c94bd4b5
-Section: Tweaks
-Priority: optional
-Description: Limneos tweak
-Author: HounSoeun
-Name: Limneos Crack
-
 Package: hounsoeun.uyou
 Version: 1.7
 Architecture: iphoneos-arm
@@ -126,4 +109,21 @@ Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
 Author: MiRO <tweaks_support@miro92.com>
 Icon: file:////Library/Application Support/uYouBundle.bundle/icon_clipped.png
 Name: uYou
+
+Package: sileoturk.limneosos
+Version: 2.0.2
+Architecture: iphoneos-arm
+Maintainer: HounSoeun
+Depends: firmware ( >= 8), mobilesubstrate
+Conflicts: sileoturk.limneososs, com.trappledestek.limneosos, ru.rejail.limneosos
+Filename: ./debs/hounsoeun.limneosos_2.0.2_iphoneos-arm.deb
+Size: 36956
+MD5sum: 7ec877339eca49eb8a3188931c55c940
+SHA1: 2d2209104ffdeb5dd3461120d243dae4a0ee00d6
+SHA256: 5c349566c861a41cfe1d73fc1d5993840ad8426ff48f9970123bf00116f8d85f
+Section: Tweaks
+Priority: optional
+Description: Limneos tweak
+Author: HounSoeun
+Name: Limneos Crack
 
