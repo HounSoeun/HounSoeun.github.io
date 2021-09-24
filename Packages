@@ -69,12 +69,12 @@ Architecture: iphoneos-arm
 Maintainer: HounSoeun
 Depends: mobilesubstrate, preferenceloader, applist
 Filename: ./debs/hounsoeun.dlgmemorinjected_1.1_iphoneos-arm.deb
-Size: 367072
-MD5sum: a82b81eea1280f6060c3149e0686c599
-SHA1: 2f16a7560778c95f00542bbe6cb171c985eb465c
-SHA256: 31ceb2e92c32d2b9c086d098f2cb6f1b2bf6cd398a60b6729f7ab19ad9c4b4ea
+Size: 539882
+MD5sum: bdbea60c1625eb4aa417216187504af5
+SHA1: 14c21b74b7ded90513b67e924d6c61a55999a7b5
+SHA256: c3f484712033c74105afebfdf34aec54ef2ef8355cb265e503861722bf433071
 Section: Tweaks
-Description: injection library that allows you to alter memory in app. Once installed go into settings go to DLGMemorInjected and select the app you want to hack the memory in. Great alternative to gameplayer, Gamegem and iGameGuardian.
+Description: Injection library that allows you to alter memory in app. Once installed go into settings go to DLGMemorInjected and select the app you want to hack the memory in. Great alternative to gameplayer, Gamegem and iGameGuardian.
 Author: HounSoeun
 Name: DLGMemor Injected
 
