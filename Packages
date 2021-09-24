@@ -92,6 +92,23 @@ Description: Download Torrent through your iDevice via .torrent files or magnet 
 Author: HounSoeun
 Name: iTorrent
 
+Package: hounsoeun.limneosos
+Version: 2.0.2
+Architecture: iphoneos-arm
+Maintainer: HounSoeun
+Depends: firmware ( >= 8), mobilesubstrate
+Conflicts: sileoturk.limneososs, com.trappledestek.limneosos, ru.rejail.limneosos
+Filename: ./debs/hounsoeun.limneosos_2.0.2_iphoneos-arm.deb
+Size: 36964
+MD5sum: 522f626600c239e96dadc50fef623ad1
+SHA1: fde8f94734e625a614af745263f4cd81097dc627
+SHA256: 909560359aa18543bfdbf7f863c9fff3357a1675db1e713984175620c94bd4b5
+Section: Tweaks
+Priority: optional
+Description: Limneos tweak
+Author: HounSoeun
+Name: Limneos Crack
+
 Package: hounsoeun.uyou
 Version: 1.7
 Architecture: iphoneos-arm
@@ -109,21 +126,4 @@ Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
 Author: MiRO <tweaks_support@miro92.com>
 Icon: file:////Library/Application Support/uYouBundle.bundle/icon_clipped.png
 Name: uYou
-
-Package: sileoturk.limneosos
-Version: 2.0.2
-Architecture: iphoneos-arm
-Maintainer: HounSoeun
-Depends: firmware ( >= 8), mobilesubstrate
-Conflicts: sileoturk.limneososs, com.trappledestek.limneosos, ru.rejail.limneosos
-Filename: ./debs/hounsoeun.limneosos_2.0.2_iphoneos-arm.deb
-Size: 36956
-MD5sum: 7ec877339eca49eb8a3188931c55c940
-SHA1: 2d2209104ffdeb5dd3461120d243dae4a0ee00d6
-SHA256: 5c349566c861a41cfe1d73fc1d5993840ad8426ff48f9970123bf00116f8d85f
-Section: Tweaks
-Priority: optional
-Description: Limneos tweak
-Author: HounSoeun
-Name: Limneos Crack
 
