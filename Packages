@@ -14,6 +14,22 @@ Description: Software for downloade appstore
 Author: CokePokes
 Name: AppStore++
 
+Package: hounsoeun.bioprotectxs
+Version: 4.5-17
+Architecture: iphoneos-arm
+Maintainer: hounsoeun
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader, sileoturk.limneosos
+Conflicts: net.limneos.bioprotectxs
+Filename: ./debs/hounsoeun.bioprotectxs_4.5-17_iphoneos-arm.deb
+Size: 832538
+MD5sum: 5ffd6a2a5bed8ad3db7cb05ef29724bf
+SHA1: 76c37311ddbad9afcb87cb47ed569da8d2bbeaa3
+SHA256: 72212a6f479ad2c752eb596bc431f367a523792f2ec0fd0bd51140a4ae5df761
+Section: Tweaks
+Description: Touch ID/Face ID
+Author: Elias Limneos
+Name: BioProtect XS (iOS 12/13/14)
+
 Package: hounsoeun.crane
 Version: 1.1.4-4
 Architecture: iphoneos-arm
@@ -93,4 +109,21 @@ Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
 Author: MiRO <tweaks_support@miro92.com>
 Icon: file:////Library/Application Support/uYouBundle.bundle/icon_clipped.png
 Name: uYou
+
+Package: sileoturk.limneosos
+Version: 2.0.2
+Architecture: iphoneos-arm
+Maintainer: HounSoeun
+Depends: firmware ( >= 8), mobilesubstrate
+Conflicts: sileoturk.limneososs, com.trappledestek.limneosos, ru.rejail.limneosos
+Filename: ./debs/hounsoeun.limneosos_2.0.2_iphoneos-arm.deb
+Size: 36956
+MD5sum: 7ec877339eca49eb8a3188931c55c940
+SHA1: 2d2209104ffdeb5dd3461120d243dae4a0ee00d6
+SHA256: 5c349566c861a41cfe1d73fc1d5993840ad8426ff48f9970123bf00116f8d85f
+Section: Tweaks
+Priority: optional
+Description: Limneos tweak
+Author: HounSoeun
+Name: Limneos Crack
 
