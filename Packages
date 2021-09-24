@@ -94,6 +94,22 @@ Description: Injection library that allows you to alter memory in app. Once inst
 Author: HounSoeun
 Name: DLGMemor Injected
 
+Package: hounsoeun.goodwifi
+Version: 0.0~beta6
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/hounsoeun.goodwifi_0.0~beta6_iphoneos-arm.deb
+Size: 155746
+MD5sum: 8fa0b90f3d9f2075f5b9ef4e4d808ced
+SHA1: 9215feef5d9785e582f490dc05e859cf301d64a2
+SHA256: 83fe014abe109abd49556af2c63367a4fb548e6099baf576097ad6b86d2a046e
+Section: Tweaks
+Description: Better WiFi Preferences
+Author: julioverne
+Icon: file:///Library/PreferenceBundles/GoodWiFiSettings.bundle/icon@2x.png
+Name: GoodWiFi
+
 Package: hounsoeun.itorrent
 Version: 1.8.3
 Architecture: iphoneos-arm
