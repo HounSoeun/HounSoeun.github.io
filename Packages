@@ -108,6 +108,22 @@ Description: Download Torrent through your iDevice via .torrent files or magnet 
 Author: HounSoeun
 Name: iTorrent
 
+Package: hounsoeun.mimport
+Version: 0.0~beta40
+Architecture: iphoneos-arm
+Maintainer: HounSoeun
+Depends: mobilesubstrate, firmware (>= 6.0), unzip, unrar
+Conflicts: com.julioverne.mimport
+Filename: ./debs/hounsoeun.mimport_0.0~beta40_iphoneos-arm.deb
+Size: 1447716
+MD5sum: 151db9c571e85aad786615ede180e46c
+SHA1: 5b11cb780a2747da6662d9b357a1a1d32c2536c3
+SHA256: 90fc95cdad4608b1ce24f37841c0df43fdc4ca2ee47486318ade0543ddf5c9ca
+Section: Tweaks
+Description: Media Importer Directly From Music App
+Author: Julio
+Name: MImport
+
 Package: hounsoeun.uyou
 Version: 1.7
 Architecture: iphoneos-arm
