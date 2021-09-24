@@ -63,6 +63,22 @@ Description: Free in app purchase will not work on every game or app but work on
 Author: HounSoeun
 Name: iAP Tools4cydia
 
+Package: hounsoeun.cydown
+Version: 7.1.1
+Architecture: iphoneos-arm
+Maintainer: HounSoeun
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Conflicts: com.julioverne.cydown
+Filename: ./debs/hounsoeun.cydown_7.1.1_iphoneos-arm.deb
+Size: 4345382
+MD5sum: d09933c303c62e01be45c9354d6ede99
+SHA1: bcbe49a6a35c740aafccc5c7816e8982940202f8
+SHA256: e18fbf7372249fc264706b901dea8c0a5dc8a126964de585eb3e460661944088
+Section: Tweaks
+Description: This tweak will expand the functionality of Cydia and add some nice feature, including downloading tweak from some reporitories.
+Author: Julioverne
+Name: CyDown
+
 Package: hounsoeun.dlgmemorinjected
 Version: 1.1
 Architecture: iphoneos-arm
