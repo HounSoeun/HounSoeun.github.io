@@ -94,6 +94,21 @@ Description: Injection library that allows you to alter memory in app. Once inst
 Author: HounSoeun
 Name: DLGMemor Injected
 
+Package: hounsoeun.fastup
+Version: 1.0.7
+Architecture: iphoneos-arm
+Maintainer: mostafa89
+Installed-Size: 648
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/hounsoeun.fastup_1.0.deb
+Size: 156498
+MD5sum: f541a0bab9e375c48c373f7278af4c33
+SHA1: 37a3109ae867daa70b12b3934801950782c3290d
+SHA256: df2054fad5f495793995aa7f3b3e797566ab8d954b2e4ce09c444b8cdbe7eaf3
+Section: Tweaks
+Author: mostafa89
+Name: FastUp
+
 Package: hounsoeun.goodwifi
 Version: 0.0~beta6
 Architecture: iphoneos-arm
@@ -124,6 +139,24 @@ Description: Download Torrent through your iDevice via .torrent files or magnet 
 Author: HounSoeun
 Name: iTorrent
 
+Package: hounsoeun.libertylite.beta
+Version: 0.2.12
+Architecture: iphoneos-arm
+Maintainer: Ryley Angus
+Installed-Size: 616
+Depends: mobilesubstrate, preferenceloader, applist
+Conflicts: com.ryleyangus.liberty, com.ryleyangus.libertylite
+Filename: ./debs/hounsoeun.libertylite.beta_0.2.12_iphoneos-arm.deb
+Size: 82400
+MD5sum: 051b914a1f9dfe148e19ff838bbb6c66
+SHA1: 311aaff9e353c214eb701f612b3ae9e2fa376f03
+SHA256: dba5c54894e9a591b30a61573a39d95a6a5dacb9bc5213bc100920d740c29b9d
+Section: Tweaks
+Description: A general purpose jailbreak detection bypass patch. Configure the Liberty Lite entry in the Settings app to block (most) apps from detecting your jailbreak. Disabling Substrate/Substitute is not currently supported. Support for both arm64e and armv7 has been enabled in this beta version.
+Author: Ryley Angus
+Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
+Name: Liberty Lite (Beta)
+
 Package: hounsoeun.mimport
 Version: 0.0~beta40
 Architecture: iphoneos-arm
@@ -139,6 +172,22 @@ Section: Tweaks
 Description: Media Importer Directly From Music App
 Author: Julio
 Name: MImport
+
+Package: hounsoeun.stoprevoke
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: stemgrade
+Installed-Size: 536
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: ./debs/hounsoeun.stoprevoke_1.0.deb
+Size: 70294
+MD5sum: 965536dc391da5ad939ab952f12c2c01
+SHA1: c2f93eff79cf1db47e88e5bf967df3951e7f6847
+SHA256: 66df14bc66bf73a9909e8d5906a69eafb884c68b32a43169471316c89a7a0775
+Section: Tweaks
+Author: stemgrade
+Icon: file:///Applications/Cydia.app/Sections/tinhchinh.png
+Name: Stop Revoke
 
 Package: hounsoeun.uyou
 Version: 1.7
