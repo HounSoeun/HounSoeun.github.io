@@ -100,12 +100,13 @@ Architecture: iphoneos-arm
 Maintainer: mostafa89
 Installed-Size: 648
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/hounsoeun.fastup_1.0.deb
-Size: 156498
-MD5sum: f541a0bab9e375c48c373f7278af4c33
-SHA1: 37a3109ae867daa70b12b3934801950782c3290d
-SHA256: df2054fad5f495793995aa7f3b3e797566ab8d954b2e4ce09c444b8cdbe7eaf3
+Filename: ./debs/hounsoeun.fastup_1.0.7_iphoneos-arm.deb
+Size: 156536
+MD5sum: ebb925c21b1c0f01c1dbc6b9be729348
+SHA1: c90e64510e6458baeb1c11f0aff0212709895f83
+SHA256: e514aa2abd1a61f325be87b74e3c9062960bc5acc246e4e01a256179ffca253f
 Section: Tweaks
+Description: Total control of your animations!
 Author: mostafa89
 Name: FastUp
 
@@ -179,12 +180,13 @@ Architecture: iphoneos-arm
 Maintainer: stemgrade
 Installed-Size: 536
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common
-Filename: ./debs/hounsoeun.stoprevoke_1.0.deb
-Size: 70294
-MD5sum: 965536dc391da5ad939ab952f12c2c01
-SHA1: c2f93eff79cf1db47e88e5bf967df3951e7f6847
-SHA256: 66df14bc66bf73a9909e8d5906a69eafb884c68b32a43169471316c89a7a0775
+Filename: ./debs/hounsoeun.stoprevoke_1.0.1_iphoneos-arm.deb
+Size: 70304
+MD5sum: dd2880fa83dde9623f0f509efa435ff6
+SHA1: dfb2aa237bca96f4a47c33a3c71fe3430e86b4e7
+SHA256: 941e99f4dc8b683d913afd909c0d4de6133b15370c526ab99eab46c062d90c44
 Section: Tweaks
+Description: Stop revoke
 Author: stemgrade
 Icon: file:///Applications/Cydia.app/Sections/tinhchinh.png
 Name: Stop Revoke
