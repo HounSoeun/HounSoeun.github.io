@@ -1,16 +1,16 @@
 Package: hounsoeun.appstoreplusplusnew
-Version: 0.9.16-2
+Version: 0.9.18
 Architecture: iphoneos-arm
-Maintainer: Proff
+Maintainer: Classic
 Depends: firmware (>= 11.0), mobilesubstrate
-Conflicts: com.unlimapps.uaupdatetools
-Filename: ./debs/hounsoeun.appstoreplusplusnew_0.9.deb
-Size: 2987980
-MD5sum: 4850b69f45373868cd136c31f1adce1c
-SHA1: 9a713f8631b5786159403f1b35612600456d7017
-SHA256: d2499d112bde66c5a22b2f360cdc456246d8d6d405fe8a9184fa15d96c5db7a8
+Conflicts: com.unlimapps.uaupdatetools, com.cokepokes.appstoreplusplus
+Filename: ./debs/hounsoeun.appstoreplusplusnew_0.9.18_iphoneos-arm.deb
+Size: 3440008
+MD5sum: 9bd8722f7e197b6731ca73cbecc0ae80
+SHA1: fbc56a51a932f8bb27ebc4bde0445d442fc85e20
+SHA256: 7a047761be6a551d2fcff4ea15c63771c22e34279157682727aef7106908446d
 Section: Tweaks
-Description: Software for downloade appstore
+Priority: optional
 Author: CokePokes
 Name: AppStore++
 
@@ -62,22 +62,6 @@ Section: Tweaks
 Description: Free in app purchase will not work on every game or app but work on lots of games and app or you can do this try it out see if it work for your game or app.
 Author: HounSoeun
 Name: iAP Tools4cydia
-
-Package: hounsoeun.cydown
-Version: 7.1.1
-Architecture: iphoneos-arm
-Maintainer: HounSoeun
-Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
-Conflicts: com.julioverne.cydown
-Filename: ./debs/hounsoeun.cydown_7.1.1_iphoneos-arm.deb
-Size: 4345382
-MD5sum: d09933c303c62e01be45c9354d6ede99
-SHA1: bcbe49a6a35c740aafccc5c7816e8982940202f8
-SHA256: e18fbf7372249fc264706b901dea8c0a5dc8a126964de585eb3e460661944088
-Section: Tweaks
-Description: This tweak will expand the functionality of Cydia and add some nice feature, including downloading tweak from some reporitories.
-Author: Julioverne
-Name: CyDown
 
 Package: hounsoeun.dlgmemorinjected
 Version: 1.1
