@@ -158,22 +158,6 @@ Author: Ryley Angus
 Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
 Name: Liberty Lite (Beta)
 
-Package: hounsoeun.mimport
-Version: 0.0~beta40
-Architecture: iphoneos-arm
-Maintainer: HounSoeun
-Depends: mobilesubstrate, firmware (>= 6.0), unzip, unrar
-Conflicts: com.julioverne.mimport
-Filename: ./debs/hounsoeun.mimport_0.0~beta40_iphoneos-arm.deb
-Size: 1447716
-MD5sum: 151db9c571e85aad786615ede180e46c
-SHA1: 5b11cb780a2747da6662d9b357a1a1d32c2536c3
-SHA256: 90fc95cdad4608b1ce24f37841c0df43fdc4ca2ee47486318ade0543ddf5c9ca
-Section: Tweaks
-Description: Media Importer Directly From Music App
-Author: Julio
-Name: MImport
-
 Package: hounsoeun.stoprevoke
 Version: 1.0.1
 Architecture: iphoneos-arm
@@ -192,40 +176,21 @@ Icon: file:///Applications/Cydia.app/Sections/tinhchinh.png
 Name: Stop Revoke
 
 Package: hounsoeun.uyou
-Version: 1.7
-Architecture: iphoneos-arm
-Maintainer: MiRO <tweaks_support@miro92.com>
-Installed-Size: 30904
-Depends: firmware (>=13.0), mobilesubstrate
-Filename: ./debs/hounsoeun.uyou_1.7_iphoneos-arm.deb
-Size: 14683336
-MD5sum: eca2532278268a3c303c6d1d90e38545
-SHA1: dd63cd6a635a7844959531ea0cc6958b7b596992
-SHA256: df763497d61883bc94814d6f8098a72c0a1e90b6a0c253b7fa7f72044bc45749
-Section: Tweaks
-Description: The best tweak for the YouTube app
-Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
-Author: MiRO <tweaks_support@miro92.com>
-Icon: file:////Library/Application Support/uYouBundle.bundle/icon_clipped.png
-Name: uYou
-
-Package: hounsoeun.uyou
-Version: 2.0
+Version: 2.1
 Architecture: iphoneos-arm
 Maintainer: MiRO <tweaks_support@miro92.com>
 Installed-Size: 31280
-Depends: firmware (>=13.0), mobilesubstrate, hounsoeun.uyouimport
+Depends: firmware (>=13.0), mobilesubstrate, com.miro.uyouimport
 Conflicts: com.miro.easyyt, com.miro.ytnoshorts, com.ps.noytpremium, com.ps.youarethere
-Filename: ./debs/hounsoeun.uyou_2.0_iphoneos-arm.deb
-Size: 14794704
-MD5sum: 1adcb57f9e920dba56818589569108d7
-SHA1: 9cf75463069d0f794d0ab29f716ff95d3c2fc948
-SHA256: e1cec62ba5e31dd52fa9844dea5ab6c617736d082f76a9f3aeb6823b5faf0d34
+Filename: ./debs/hounsoeun.uyou_2.1_iphoneos-arm.deb
+Size: 14799316
+MD5sum: f3aa46a47dea0fd6841b8e46f9e5de52
+SHA1: 7647a51a18c45ed2d3c103df9d7e032095daf768
+SHA256: 34ae592ae8f401a8ee90d98975ff4a90ca55658885f41d7624159312382cc464
 Section: Tweaks
 Description: The best tweak for the YouTube app
 Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
 Author: MiRO <tweaks_support@miro92.com>
-Depiction: https://miro92.com/repo/depictions/?p=com.miro.uyou
 Icon: file:////Library/Application Support/uYouBundle.bundle/icon_clipped.png
 Name: uYou
 
@@ -236,15 +201,14 @@ Maintainer: MiRO <tweaks_support@miro92.com>
 Installed-Size: 460
 Depends: firmware (>=13.0), mobilesubstrate
 Filename: ./debs/hounsoeun.uyouimport_1.0_iphoneos-arm.deb
-Size: 144134
-MD5sum: 9b1c03e629a7354d00a91b997f5005d4
-SHA1: 2e2a83b1d72636cd26e1d30f5e2016aee21ab213
-SHA256: cda4c859f86f32caf8026e5dc4df18946689492c2a4fce716f89d71ae53bcb4f
+Size: 144100
+MD5sum: 44abb465e1569b750910c751458e7f6d
+SHA1: 7809e0bab38ee8fdd728c65d0508f76144537cf6
+SHA256: 87ffbb966c0cd82dbaa7a4fc6104531d88da9f6a8a682db08b325275c89d4061
 Section: Tweaks
 Description: Library for importing songs/videos into the Music app.
 Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
 Author: MiRO <tweaks_support@miro92.com>
-Depiction: https://miro92.com/repo/depictions/?p=com.miro.uyouimport
 Name: uYouImport
 
 Package: sileoturk.limneosos
