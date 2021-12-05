@@ -5,12 +5,13 @@ Maintainer: Classic
 Depends: firmware (>= 11.0), mobilesubstrate
 Conflicts: com.unlimapps.uaupdatetools, com.cokepokes.appstoreplusplus
 Filename: ./debs/hounsoeun.appstoreplusplusnew_0.9.18_iphoneos-arm.deb
-Size: 3440008
-MD5sum: 9bd8722f7e197b6731ca73cbecc0ae80
-SHA1: fbc56a51a932f8bb27ebc4bde0445d442fc85e20
-SHA256: 7a047761be6a551d2fcff4ea15c63771c22e34279157682727aef7106908446d
+Size: 3440034
+MD5sum: 7a98b1a8db577956c1fc468673cc5eee
+SHA1: 675d796629725317425ed239aea7b234b794e1ae
+SHA256: a8b463b5e2f9d5a8c8a25cced066f96253fb76e4e8de360faa3977f6410cafd3
 Section: Tweaks
 Priority: optional
+Description: Downloade update or downgrade to app store
 Author: CokePokes
 Name: AppStore++
 
@@ -69,46 +70,14 @@ Architecture: iphoneos-arm
 Maintainer: HounSoeun
 Depends: mobilesubstrate, preferenceloader, applist
 Filename: ./debs/hounsoeun.dlgmemorinjected_1.1_iphoneos-arm.deb
-Size: 539882
-MD5sum: bdbea60c1625eb4aa417216187504af5
-SHA1: 14c21b74b7ded90513b67e924d6c61a55999a7b5
-SHA256: c3f484712033c74105afebfdf34aec54ef2ef8355cb265e503861722bf433071
-Section: Tweaks
+Size: 539884
+MD5sum: 44c0541ca3dc6186e67ee7c63a286e72
+SHA1: 935d62ad6dde621b58cbd1f0d9324e28ed9a2223
+SHA256: 606558a70ad14b2ff14ab55b33db3ad837b063a1f2aafb074d48795e2b817bf9
+Section: Utilities
 Description: Injection library that allows you to alter memory in app. Once installed go into settings go to DLGMemorInjected and select the app you want to hack the memory in. Great alternative to gameplayer, Gamegem and iGameGuardian.
 Author: HounSoeun
 Name: DLGMemor Injected
-
-Package: hounsoeun.fastup
-Version: 1.0.7
-Architecture: iphoneos-arm
-Maintainer: mostafa89
-Installed-Size: 648
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/hounsoeun.fastup_1.0.7_iphoneos-arm.deb
-Size: 156536
-MD5sum: ebb925c21b1c0f01c1dbc6b9be729348
-SHA1: c90e64510e6458baeb1c11f0aff0212709895f83
-SHA256: e514aa2abd1a61f325be87b74e3c9062960bc5acc246e4e01a256179ffca253f
-Section: Tweaks
-Description: Total control of your animations!
-Author: mostafa89
-Name: FastUp
-
-Package: hounsoeun.goodwifi
-Version: 0.0~beta6
-Architecture: iphoneos-arm
-Maintainer: Julio
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/hounsoeun.goodwifi_0.0~beta6_iphoneos-arm.deb
-Size: 155746
-MD5sum: 8fa0b90f3d9f2075f5b9ef4e4d808ced
-SHA1: 9215feef5d9785e582f490dc05e859cf301d64a2
-SHA256: 83fe014abe109abd49556af2c63367a4fb548e6099baf576097ad6b86d2a046e
-Section: Tweaks
-Description: Better WiFi Preferences
-Author: julioverne
-Icon: file:///Library/PreferenceBundles/GoodWiFiSettings.bundle/icon@2x.png
-Name: GoodWiFi
 
 Package: hounsoeun.itorrent
 Version: 1.8.3
@@ -149,28 +118,28 @@ Maintainer: stemgrade
 Installed-Size: 536
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common
 Filename: ./debs/hounsoeun.stoprevoke_1.0.1_iphoneos-arm.deb
-Size: 70304
-MD5sum: dd2880fa83dde9623f0f509efa435ff6
-SHA1: dfb2aa237bca96f4a47c33a3c71fe3430e86b4e7
-SHA256: 941e99f4dc8b683d913afd909c0d4de6133b15370c526ab99eab46c062d90c44
-Section: Tweaks
+Size: 70306
+MD5sum: 5d7524f40b0e5350c16e1872ca59a23f
+SHA1: c6b7ad8f545b8f5d1a9600ad2be0c1a016de3b25
+SHA256: 4be12ba34dd4b524ecc489264df58ad26b4f09f582a8cdec802e6c9230dc7084
+Section: Utilities
 Description: Stop revoke
 Author: stemgrade
 Icon: file:///Applications/Cydia.app/Sections/tinhchinh.png
-Name: Stop Revoke
+Name: StopRevoke
 
 Package: hounsoeun.uyou
 Version: 2.1
 Architecture: iphoneos-arm
 Maintainer: MiRO <tweaks_support@miro92.com>
 Installed-Size: 31280
-Depends: firmware (>=13.0), mobilesubstrate, com.miro.uyouimport
+Depends: firmware (>=13.0), mobilesubstrate, hounsoeun.uyouimport
 Conflicts: com.miro.easyyt, com.miro.ytnoshorts, com.ps.noytpremium, com.ps.youarethere
 Filename: ./debs/hounsoeun.uyou_2.1_iphoneos-arm.deb
-Size: 14799316
-MD5sum: f3aa46a47dea0fd6841b8e46f9e5de52
-SHA1: 7647a51a18c45ed2d3c103df9d7e032095daf768
-SHA256: 34ae592ae8f401a8ee90d98975ff4a90ca55658885f41d7624159312382cc464
+Size: 14799322
+MD5sum: 53bc949d9f7b5cea631304738734f788
+SHA1: 714214d460830a40d3a0004a9f0222377b53758e
+SHA256: d93b0dde361b0f030aaa55a6e4fc13d3d08a6fee0ac6b9559d95fb25147231fd
 Section: Tweaks
 Description: The best tweak for the YouTube app
 Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
