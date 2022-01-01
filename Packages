@@ -93,24 +93,6 @@ Description: Download Torrent through your iDevice via .torrent files or magnet 
 Author: HounSoeun
 Name: iTorrent
 
-Package: hounsoeun.libertylite.beta
-Version: 0.2.12
-Architecture: iphoneos-arm
-Maintainer: Ryley Angus
-Installed-Size: 616
-Depends: mobilesubstrate, preferenceloader, applist
-Conflicts: com.ryleyangus.liberty, com.ryleyangus.libertylite
-Filename: ./debs/hounsoeun.libertylite.beta_0.2.12_iphoneos-arm.deb
-Size: 82400
-MD5sum: 051b914a1f9dfe148e19ff838bbb6c66
-SHA1: 311aaff9e353c214eb701f612b3ae9e2fa376f03
-SHA256: dba5c54894e9a591b30a61573a39d95a6a5dacb9bc5213bc100920d740c29b9d
-Section: Tweaks
-Description: A general purpose jailbreak detection bypass patch. Configure the Liberty Lite entry in the Settings app to block (most) apps from detecting your jailbreak. Disabling Substrate/Substitute is not currently supported. Support for both arm64e and armv7 has been enabled in this beta version.
-Author: Ryley Angus
-Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
-Name: Liberty Lite (Beta)
-
 Package: hounsoeun.stoprevoke
 Version: 1.0.1
 Architecture: iphoneos-arm
