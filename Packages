@@ -101,10 +101,10 @@ Installed-Size: 616
 Depends: mobilesubstrate, preferenceloader, applist
 Conflicts: com.ryleyangus.liberty, com.ryleyangus.libertylite
 Filename: ./debs/hounsoeun.libertylite.beta_0.2.12_iphoneos-arm.deb
-Size: 82400
-MD5sum: b5a3d300b705c47f38c16713f3e955ce
-SHA1: c02e4b488b31c763fdd9f70e995428289cbccaeb
-SHA256: fcc924913735565e6bec8aa0f51e2cd0b66007a38bc5f6b60cdb748be527d34e
+Size: 82402
+MD5sum: 7153e01f2fc369c02fbb4880acee8bdd
+SHA1: 7b42427668f5401b110e37a5a979ce102064b9bf
+SHA256: 1ac798b8e4612728b09a91d148d0c94d168cb92009cc332e031d31bf8dcd1242
 Section: Tweaks
 Description: A general purpose jailbreak detection bypass patch. Configure the Liberty Lite entry in the Settings app to block (most) apps from detecting your jailbreak. Disabling Substrate/Substitute is not currently supported. Support for both arm64e and armv7 has been enabled in this beta version.
 Author: Ryley Angus
