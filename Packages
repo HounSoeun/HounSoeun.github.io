@@ -17,23 +17,6 @@ Author: Riley Testut
 Dev: Riley Testut
 Name: AltStore
 
-Package: hounsoeun.altstore
-Version: 1.4.8
-Architecture: iphoneos-arm
-Maintainer: @baraba
-Depends: firmware (>= 12.2), com.rileytestut.altdaemon, mobilesubstrate
-Replaces: com.baraba.AltStore
-Filename: ./debs/hounsoeun.altstore_1.4.8_iphoneos-arm.deb
-Size: 5155854
-MD5sum: 22ac8a67c31c7e69736dc8a40c3fb96d
-SHA1: c6ae21dfa48d18088c24f5c83d9d1949b7b01d74
-SHA256: 60ff58de698cc7f19f488e1cc10e2fadd9d3a1d436c6e6f62dde64654ece1bfa
-Section: Packaging
-Description: Sign and install iOS apps, all without a computer
-Tag: purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16
-Author: Riley Testut, @baraba
-Name: AltStore
-
 Package: hounsoeun.appstoreplusplusnew
 Version: 0.9.18
 Architecture: iphoneos-arm
