@@ -6,37 +6,15 @@ Depends: firmware (>= 12.2), com.rileytestut.altdaemon
 Conflicts: com.rileytestut.altstore.alpha.jailbroken, com.rileytestut.altstore
 Replaces: com.ichitaso.altstore
 Filename: ./debs/hounsoeun.altstore_1.4.6_iphoneos-arm.deb
-Size: 4578384
-MD5sum: b1a170f630b22e0b6366f7afd4e768dc
-SHA1: 65cb985b50772b3e5579a72a0351a02de48ecbe9
-SHA256: 9718a02dfbcfc96681163de7c8ef106ff2e9bdd5ed8e0ea9c81290a5ba4a1b65
+Size: 4578290
+MD5sum: 22a5fd8b63969bf7aa96c6f5fa63107b
+SHA1: b69c8c5a78ec1972d01cff1acd625305d8e2dbbc
+SHA256: 0595c7b36674b871043b76dc44883073e1f6be52e17e19ab49779ba839073919
 Section: Utilities
-Homepage: https://altstore.io/
 Description: Jailbroken version of AltStore with on device signing feauture.
 Tag: purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14
 Author: Riley Testut
-Depiction: https://cydia.ichitaso.com/depiction/altstore.html
 Dev: Riley Testut
-Icon: file:///Applications/AltStore.app/AppIcon60x60@2x.png
-Name: AltStore
-
-Package: hounsoeun.altstore
-Version: 1.4.8
-Architecture: iphoneos-arm
-Maintainer: @baraba
-Depends: firmware (>= 12.2), com.rileytestut.altdaemon, mobilesubstrate
-Replaces: com.baraba.AltStore
-Filename: ./debs/hounsoeun.altstore_1.4.8_iphoneos-arm.deb
-Size: 5155926
-MD5sum: d7588209f4181640f5048bfc92e8fc42
-SHA1: f1f470e0645c8c825d4d2e82e907134223c21a5e
-SHA256: fb8773f03941c0e5b9e3749eef7f57f231099f063dc14ac19e091fdf17e27bcb
-Section: Packaging
-Description: Sign and install iOS apps, all without a computer
-Tag: purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16
-Author: Riley Testut, @baraba
-Depiction: https://apt-baraba.com/baraba/index.html
-Icon: file:///Applications/AltStore.app/AppIcon60x60@2x.png
 Name: AltStore
 
 Package: hounsoeun.appstoreplusplusnew
