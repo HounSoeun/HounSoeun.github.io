@@ -130,23 +130,6 @@ Author: Ryley Angus
 Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
 Name: Liberty Lite (Beta)
 
-Package: hounsoeun.stoprevoke
-Version: 1.0.1
-Architecture: iphoneos-arm
-Maintainer: stemgrade
-Installed-Size: 536
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common
-Filename: ./debs/hounsoeun.stoprevoke_1.0.1_iphoneos-arm.deb
-Size: 70306
-MD5sum: 5d7524f40b0e5350c16e1872ca59a23f
-SHA1: c6b7ad8f545b8f5d1a9600ad2be0c1a016de3b25
-SHA256: 4be12ba34dd4b524ecc489264df58ad26b4f09f582a8cdec802e6c9230dc7084
-Section: Utilities
-Description: Stop revoke
-Author: stemgrade
-Icon: file:///Applications/Cydia.app/Sections/tinhchinh.png
-Name: StopRevoke
-
 Package: hounsoeun.uyou
 Version: 2.1
 Architecture: iphoneos-arm
