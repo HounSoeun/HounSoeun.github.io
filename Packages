@@ -35,16 +35,16 @@ Author: CokePokes
 Name: AppStore++
 
 Package: hounsoeun.bioprotectxs
-Version: 4.5-17
+Version: 4.5-19
 Architecture: iphoneos-arm
 Maintainer: hounsoeun
 Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader, sileoturk.limneosos
 Conflicts: net.limneos.bioprotectxs
-Filename: ./debs/hounsoeun.bioprotectxs_4.5-17_iphoneos-arm.deb
-Size: 832668
-MD5sum: 315f04f8c684669b15accebb9526cea3
-SHA1: 61a765b95fd5902b3c9c452fb83120a29149443b
-SHA256: 80cd424f7b60764de28b614236a8cf25cf55fa86251e652225832a1359c1202d
+Filename: ./debs/hounsoeun.bioprotectxs_4.5-19_iphoneos-arm.deb
+Size: 828794
+MD5sum: edb623312fddadfe0906476d925000e1
+SHA1: 05672e90f5af74e3fe05c8822c07232659dad4c5
+SHA256: 05f770dfb710a0fce1a1299ca2c0e17aea2a2d87c28ad747eb0addaf4d61933a
 Section: Tweaks
 Description: Protect your apps with Touch/Face ID!
 Author: Elias Limneos
@@ -89,10 +89,10 @@ Architecture: iphoneos-arm
 Maintainer: HounSoeun
 Depends: mobilesubstrate, preferenceloader, applist
 Filename: ./debs/hounsoeun.dlgmemorinjected_1.1_iphoneos-arm.deb
-Size: 539884
-MD5sum: 44c0541ca3dc6186e67ee7c63a286e72
-SHA1: 935d62ad6dde621b58cbd1f0d9324e28ed9a2223
-SHA256: 606558a70ad14b2ff14ab55b33db3ad837b063a1f2aafb074d48795e2b817bf9
+Size: 534900
+MD5sum: a90a90faf5766dacc3de84b72a68f95e
+SHA1: 6acdf9cb02a67f902ca7f3d52c325a15d5dc3d99
+SHA256: 499b8c73c630ac5022355e3dcb373e30c90d55f60d55b820cbdf292bb811f867
 Section: Utilities
 Description: Injection library that allows you to alter memory in app. Once installed go into settings go to DLGMemorInjected and select the app you want to hack the memory in. Great alternative to gameplayer, Gamegem and iGameGuardian.
 Author: HounSoeun
@@ -129,6 +129,20 @@ Description: A general purpose jailbreak detection bypass patch. Configure the L
 Author: Ryley Angus
 Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
 Name: Liberty Lite (Beta)
+
+Package: hounsoeun.myiapcracker
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: ./debs/hounsoeun.myiapcracker_1.0_iphoneos-arm.deb
+Size: 46898
+MD5sum: a400ba929b6e98cbb1b0c795e12f916d
+SHA1: da59bc0b88addcc0cc1f0c88b41d9a4468d10ae1
+SHA256: 540829ccc786854f22d3b1597d0a36d192546c780d0a5f2877e0c2b214e12fe0
+Section: Tweaks
+Description: Free in app purchase will not work on every game or app but work on lots of games and app or you can do this try it out see if it work for your game or app.
+Author: HounSoeun
+Name: My iAP Cracker
 
 Package: hounsoeun.uyou
 Version: 2.1
