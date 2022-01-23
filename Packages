@@ -6,15 +6,37 @@ Depends: firmware (>= 12.2), com.rileytestut.altdaemon
 Conflicts: com.rileytestut.altstore.alpha.jailbroken, com.rileytestut.altstore
 Replaces: com.ichitaso.altstore
 Filename: ./debs/hounsoeun.altstore_1.4.6_iphoneos-arm.deb
-Size: 4578290
-MD5sum: 22a5fd8b63969bf7aa96c6f5fa63107b
-SHA1: b69c8c5a78ec1972d01cff1acd625305d8e2dbbc
-SHA256: 0595c7b36674b871043b76dc44883073e1f6be52e17e19ab49779ba839073919
+Size: 4578374
+MD5sum: 1f487d210a100a894663074bfef5c5cc
+SHA1: 49bdb019095ed31ed9d6a9fc126f2c24d82f8797
+SHA256: a63e484a05eb825db15ac362b1f5c66d0865d9c71a8923961d9fc973253d5568
 Section: Utilities
+Homepage: https://altstore.io/
 Description: Jailbroken version of AltStore with on device signing feauture.
 Tag: purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14
 Author: Riley Testut
+Depiction: https://cydia.ichitaso.com/depiction/altstore.html
 Dev: Riley Testut
+Icon: file:///Applications/AltStore.app/AppIcon60x60@2x.png
+Name: AltStore
+
+Package: hounsoeun.altstore
+Version: 1.4.8
+Architecture: iphoneos-arm
+Maintainer: @baraba
+Depends: firmware (>= 12.2), com.rileytestut.altdaemon, mobilesubstrate
+Replaces: com.baraba.AltStore
+Filename: ./debs/hounsoeun.altstore_1.4.8_iphoneos-arm.deb
+Size: 5155920
+MD5sum: 72f96ff19dfad2e53b1072d8c5dde733
+SHA1: c2a5feb9c615791856ead3bbec79c8a5cd3cbaa6
+SHA256: 0bd50c1df13e7c4b24ada51e2dde127b33ac4d4a78b740f2dea8b67b3319a78a
+Section: Packaging
+Description: Sign and install iOS apps, all without a computer
+Tag: purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16
+Author: Riley Testut, @baraba
+Depiction: https://apt-baraba.com/baraba/index.html
+Icon: file:///Applications/AltStore.app/AppIcon60x60@2x.png
 Name: AltStore
 
 Package: hounsoeun.appstoreplusplusnew
@@ -82,6 +104,21 @@ Section: Tweaks
 Description: Free in app purchase will not work on every game or app but work on lots of games and app or you can do this try it out see if it work for your game or app.
 Author: HounSoeun
 Name: iAP Tools4cydia
+
+Package: hounsoeun.cydown
+Version: 7.1.2
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Filename: ./debs/hounsoeun.cydown_7.1.2_iphoneos-arm.deb
+Size: 4348800
+MD5sum: 93c2456b0867e2da4177eea733d9dd7c
+SHA1: 36de25f7c31fded77a58fa3f250fc228f25df0ce
+SHA256: cbb94a9c5f01aa298c0b7651c839cb47ffb4b068c684e8fd445b5261344fd137
+Section: Tweaks
+Author: julioverne <julioverne@me.com>
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+Name: CyDown
 
 Package: hounsoeun.dlgmemorinjected
 Version: 1.1
