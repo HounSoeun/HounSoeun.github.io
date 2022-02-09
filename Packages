@@ -1,3 +1,18 @@
+Package: hounsoeun.appdatamanager
+Version: 1.6.1-10
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Filename: ./debs/hounsoeun.appdatamanager_1.6.1-10_iphoneos-arm.deb
+Size: 5407818
+MD5sum: a9ab0a74e2b9c8e9a3ee212d99714588
+SHA1: b9de5a2c22d8b046c9c4e6b241c488feafa32365
+SHA256: c23c95e0ac28ca6c7b341ddbb2cecca4390fda40ad5b155fe9f9956fc8152170
+Section: Utilities
+Description: tool to WIPE, BACKUP, RESTORE AppData for installed Apps
+Author: TIGI Software
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=appsmanagerDp
+Name: Apps Manager
+
 Package: hounsoeun.bioprotectxs
 Version: 4.5-19
 Architecture: iphoneos-arm
