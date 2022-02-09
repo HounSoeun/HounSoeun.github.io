@@ -1,0 +1,8 @@
+Origin: HounSoeun🇰🇭
+Label: HounSoeun🇰🇭
+Suite: stable
+Version: 1.0
+Codename: cydia-ios
+Architectures: iphoneos-arm
+Components: master
+Description: My Cydia Repo
