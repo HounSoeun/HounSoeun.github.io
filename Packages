@@ -1,61 +1,3 @@
-Package: hounsoeun.altstore
-Version: 1.4.6
-Architecture: iphoneos-arm
-Maintainer: ichitaso
-Depends: firmware (>= 12.2), com.rileytestut.altdaemon
-Conflicts: com.rileytestut.altstore.alpha.jailbroken, com.rileytestut.altstore
-Replaces: com.ichitaso.altstore
-Filename: ./debs/hounsoeun.altstore_1.4.6_iphoneos-arm.deb
-Size: 4578374
-MD5sum: 1f487d210a100a894663074bfef5c5cc
-SHA1: 49bdb019095ed31ed9d6a9fc126f2c24d82f8797
-SHA256: a63e484a05eb825db15ac362b1f5c66d0865d9c71a8923961d9fc973253d5568
-Section: Utilities
-Homepage: https://altstore.io/
-Description: Jailbroken version of AltStore with on device signing feauture.
-Tag: purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14
-Author: Riley Testut
-Depiction: https://cydia.ichitaso.com/depiction/altstore.html
-Dev: Riley Testut
-Icon: file:///Applications/AltStore.app/AppIcon60x60@2x.png
-Name: AltStore
-
-Package: hounsoeun.altstore
-Version: 1.4.8
-Architecture: iphoneos-arm
-Maintainer: @baraba
-Depends: firmware (>= 12.2), com.rileytestut.altdaemon, mobilesubstrate
-Replaces: com.baraba.AltStore
-Filename: ./debs/hounsoeun.altstore_1.4.8_iphoneos-arm.deb
-Size: 5155920
-MD5sum: 72f96ff19dfad2e53b1072d8c5dde733
-SHA1: c2a5feb9c615791856ead3bbec79c8a5cd3cbaa6
-SHA256: 0bd50c1df13e7c4b24ada51e2dde127b33ac4d4a78b740f2dea8b67b3319a78a
-Section: Packaging
-Description: Sign and install iOS apps, all without a computer
-Tag: purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16
-Author: Riley Testut, @baraba
-Depiction: https://apt-baraba.com/baraba/index.html
-Icon: file:///Applications/AltStore.app/AppIcon60x60@2x.png
-Name: AltStore
-
-Package: hounsoeun.appstoreplusplusnew
-Version: 0.9.18
-Architecture: iphoneos-arm
-Maintainer: Classic
-Depends: firmware (>= 11.0), mobilesubstrate
-Conflicts: com.unlimapps.uaupdatetools, com.cokepokes.appstoreplusplus
-Filename: ./debs/hounsoeun.appstoreplusplusnew_0.9.18_iphoneos-arm.deb
-Size: 3440034
-MD5sum: 7a98b1a8db577956c1fc468673cc5eee
-SHA1: 675d796629725317425ed239aea7b234b794e1ae
-SHA256: a8b463b5e2f9d5a8c8a25cced066f96253fb76e4e8de360faa3977f6410cafd3
-Section: Tweaks
-Priority: optional
-Description: Downloade update or downgrade to app store
-Author: CokePokes
-Name: AppStore++
-
 Package: hounsoeun.bioprotectxs
 Version: 4.5-19
 Architecture: iphoneos-arm
@@ -73,17 +15,17 @@ Author: Elias Limneos
 Name: BioProtect XS (iOS 12/13/14)
 
 Package: hounsoeun.crane
-Version: 1.1.4-4
+Version: 1.1.4-5
 Architecture: iphoneos-arm
 Maintainer: opa334
 Installed-Size: 3288
 Depends: firmware (>=11.0), mobilesubstrate, com.opa334.altlist (>=1.0.5), com.rpetrich.rocketbootstrap, preferenceloader, com.opa334.libundirect (>=1.1) | firmware (<<14.0)
 Conflicts: com.opa334.cranelite, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
-Filename: ./debs/hounsoeun.crane_1.1.4-4_iphoneos-arm.deb
-Size: 1064128
-MD5sum: 6ea34a9697e40799f46051426ef2445b
-SHA1: d80c6679dc7b79a2e987530a8a91c7f1f986417b
-SHA256: f6bc55fe5bb3bb0534aaa7c16134c9e6230dc0597898be04acb013db212170c2
+Filename: ./debs/hounsoeun.crane_1.1.4-5_iphoneos-arm.deb
+Size: 1065430
+MD5sum: e5dd965fd7b668614640cbe3c0761483
+SHA1: b0770fdc24cb0d45bafe9637474dc4f5031c5134
+SHA256: 5cbd4d808b5d4702909fdb2baafcad56864ebfdaea54df272dd027182bb9f0d6
 Section: Tweaks
 Description: Multiple containers for your application
 Author: opa334
@@ -120,20 +62,6 @@ Description: Injection library that allows you to alter memory in app. Once inst
 Author: HounSoeun
 Name: DLGMemor Injected
 
-Package: hounsoeun.itorrent
-Version: 1.8.3
-Architecture: iphoneos-arm
-Maintainer: HounSoeun
-Filename: ./debs/hounsoeun.itorrent_1.8.3_iphoneos-arm.deb
-Size: 20998118
-MD5sum: 69ec9d9b751f3a9e93597ee6a5749ed0
-SHA1: 45c647c2694ff994d2a9ecb4ff49350c43358f9f
-SHA256: 99028f7ebce74f564bc7dfb5ce0104a4e66aa64d20e63fb3260058005bde81bd
-Section: Multimedia
-Description: Download Torrent through your iDevice via .torrent files or magnet urls. Background Downloading is also available. Modern iTorrent app for latest devices.
-Author: HounSoeun
-Name: iTorrent
-
 Package: hounsoeun.libertylite.beta
 Version: 0.2.12
 Architecture: iphoneos-arm
@@ -165,25 +93,6 @@ Section: Tweaks
 Description: Free in app purchase will not work on every game or app but work on lots of games and app or you can do this try it out see if it work for your game or app.
 Author: HounSoeun
 Name: My iAP Cracker
-
-Package: hounsoeun.uyou
-Version: 2.1
-Architecture: iphoneos-arm
-Maintainer: MiRO <tweaks_support@miro92.com>
-Installed-Size: 31280
-Depends: firmware (>=13.0), mobilesubstrate, hounsoeun.uyouimport
-Conflicts: com.miro.easyyt, com.miro.ytnoshorts, com.ps.noytpremium, com.ps.youarethere
-Filename: ./debs/hounsoeun.uyou_2.1_iphoneos-arm.deb
-Size: 14799322
-MD5sum: 53bc949d9f7b5cea631304738734f788
-SHA1: 714214d460830a40d3a0004a9f0222377b53758e
-SHA256: d93b0dde361b0f030aaa55a6e4fc13d3d08a6fee0ac6b9559d95fb25147231fd
-Section: Tweaks
-Description: The best tweak for the YouTube app
-Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
-Author: MiRO <tweaks_support@miro92.com>
-Icon: file:////Library/Application Support/uYouBundle.bundle/icon_clipped.png
-Name: uYou
 
 Package: hounsoeun.uyouimport
 Version: 1.0
