@@ -42,16 +42,14 @@ Name: AltStore
 Package: hounsoeun.appdatamanager
 Version: 1.6.1-10
 Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
 Filename: ./debs/hounsoeun.appdatamanager_1.6.1-10_iphoneos-arm.deb
-Size: 5407818
-MD5sum: a9ab0a74e2b9c8e9a3ee212d99714588
-SHA1: b9de5a2c22d8b046c9c4e6b241c488feafa32365
-SHA256: c23c95e0ac28ca6c7b341ddbb2cecca4390fda40ad5b155fe9f9956fc8152170
+Size: 5407742
+MD5sum: c82e1c7dfe7ffe2220f2b124a36efdc7
+SHA1: f946383c2fa5ebed3888e2803adc32132a7c18ad
+SHA256: f17b2cd5978074bdb6b9d7d44dac7b552c649f4098a8538023f52ea155af8cec
 Section: Utilities
 Description: tool to WIPE, BACKUP, RESTORE AppData for installed Apps
 Author: TIGI Software
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=appsmanagerDp
 Name: Apps Manager
 
 Package: hounsoeun.appstoreplusplusnew
