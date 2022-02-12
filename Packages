@@ -1,18 +1,86 @@
-Package: hounsoeun.bioprotectxs
-Version: 4.5-17
+Package: hounsoeun.altstore
+Version: 1.4.7
 Architecture: iphoneos-arm
-Maintainer: HounSoeun
+Maintainer: ichitaso
+Depends: firmware (>= 12.2), com.rileytestut.altdaemon
+Conflicts: com.rileytestut.altstore.alpha.jailbroken, com.rileytestut.altstore
+Replaces: com.ichitaso.altstore
+Filename: ./debs/hounsoeun.altstore_1.4.7_iphoneos-arm.deb
+Size: 4964814
+MD5sum: 1bb783e9f224e45a959b82e6e4daa18f
+SHA1: d9172329f24b951248a03269cfda80a1831d9e87
+SHA256: c650260551fef645df353dbbd4b17c60dcd969f47b89cf06bb9d4b7e450e750d
+Section: Utilities
+Homepage: https://altstore.io/
+Description: Jailbroken version of AltStore with on device signing feauture.
+Tag: purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14
+Author: Riley Testut
+Depiction: https://cydia.ichitaso.com/depiction/altstore.html
+Dev: Riley Testut
+Name: AltStore
+
+Package: hounsoeun.appdatamanager
+Version: 1.6.1-10
+Architecture: iphoneos-arm
+Filename: ./debs/hounsoeun.appdatamanager_1.6.1-10_iphoneos-arm.deb
+Size: 5407742
+MD5sum: c82e1c7dfe7ffe2220f2b124a36efdc7
+SHA1: f946383c2fa5ebed3888e2803adc32132a7c18ad
+SHA256: f17b2cd5978074bdb6b9d7d44dac7b552c649f4098a8538023f52ea155af8cec
+Section: Utilities
+Description: tool to WIPE, BACKUP, RESTORE AppData for installed Apps
+Author: TIGI Software
+Name: Apps Manager
+
+Package: hounsoeun.appstoreplusplusnew
+Version: 0.9.18
+Architecture: iphoneos-arm
+Maintainer: Classic
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: com.unlimapps.uaupdatetools, com.cokepokes.appstoreplusplus
+Filename: ./debs/hounsoeun.appstoreplusplusnew_0.9.18_iphoneos-arm.deb
+Size: 3440034
+MD5sum: 7a98b1a8db577956c1fc468673cc5eee
+SHA1: 675d796629725317425ed239aea7b234b794e1ae
+SHA256: a8b463b5e2f9d5a8c8a25cced066f96253fb76e4e8de360faa3977f6410cafd3
+Section: Tweaks
+Priority: optional
+Description: Downloade update or downgrade to app store
+Author: CokePokes
+Name: AppStore++
+
+Package: hounsoeun.bioprotectxs
+Version: 4.5-19
+Architecture: iphoneos-arm
+Maintainer: hounsoeun
 Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader, sileoturk.limneosos
 Conflicts: net.limneos.bioprotectxs
-Filename: ./debs/hounsoeun.bioprotectxs_4.5-17_iphoneos-arm.deb
-Size: 832566
-MD5sum: 5f173d435f834d4db60c38d9575a0426
-SHA1: 24d5ec010f5415dcfe1684b1d97c9bb2cae323be
-SHA256: febdc13f27baba75af26aa5267b426db3b1a055c630cfcc08daea3298cb8fb24
-Section: Tweak
-Description: Protect your app with Face ID, Touch ID or passcode!
+Filename: ./debs/hounsoeun.bioprotectxs_4.5-19_iphoneos-arm.deb
+Size: 828794
+MD5sum: edb623312fddadfe0906476d925000e1
+SHA1: 05672e90f5af74e3fe05c8822c07232659dad4c5
+SHA256: 05f770dfb710a0fce1a1299ca2c0e17aea2a2d87c28ad747eb0addaf4d61933a
+Section: Tweaks
+Description: Protect your apps with Touch/Face ID!
 Author: Elias Limneos
 Name: BioProtect XS (iOS 12/13/14)
+
+Package: hounsoeun.crane
+Version: 1.1.4-5
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 3288
+Depends: firmware (>=11.0), mobilesubstrate, com.opa334.altlist (>=1.0.5), com.rpetrich.rocketbootstrap, preferenceloader, com.opa334.libundirect (>=1.1) | firmware (<<14.0)
+Conflicts: com.opa334.cranelite, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Filename: ./debs/hounsoeun.crane_1.1.4-5_iphoneos-arm.deb
+Size: 1065430
+MD5sum: e5dd965fd7b668614640cbe3c0761483
+SHA1: b0770fdc24cb0d45bafe9637474dc4f5031c5134
+SHA256: 5cbd4d808b5d4702909fdb2baafcad56864ebfdaea54df272dd027182bb9f0d6
+Section: Tweaks
+Description: Multiple containers for your application
+Author: opa334
+Name: Crane
 
 Package: hounsoeun.cydiaiapipcracker
 Version: 1.0-2+debug
@@ -36,12 +104,12 @@ Architecture: iphoneos-arm
 Maintainer: HounSoeun
 Depends: mobilesubstrate, preferenceloader, applist
 Filename: ./debs/hounsoeun.dlgmemorinjected_1.1_iphoneos-arm.deb
-Size: 540366
-MD5sum: 3f33994b75172c79e177f7296733be7e
-SHA1: 4c79935097f75760b7a75467c22383cab5a3e6fe
-SHA256: ed02d37256c27515774ef2f6eb77a28809a8505ac3c3782a11e83cd06c94d867
-Section: Tweaks
-Description: injection library that allows you to alter memory in app. Once installed go into settings go to DLGMemorInjected and select the app you want to hack the memory in. Great alternative to gameplayer, Gamegem and iGameGuardian.
+Size: 534900
+MD5sum: a90a90faf5766dacc3de84b72a68f95e
+SHA1: 6acdf9cb02a67f902ca7f3d52c325a15d5dc3d99
+SHA256: 499b8c73c630ac5022355e3dcb373e30c90d55f60d55b820cbdf292bb811f867
+Section: Utilities
+Description: Injection library that allows you to alter memory in app. Once installed go into settings go to DLGMemorInjected and select the app you want to hack the memory in. Great alternative to gameplayer, Gamegem and iGameGuardian.
 Author: HounSoeun
 Name: DLGMemor Injected
 
@@ -59,19 +127,120 @@ Description: Download Torrent through your iDevice via .torrent files or magnet 
 Author: HounSoeun
 Name: iTorrent
 
+Package: hounsoeun.libertylite.beta
+Version: 0.2.12
+Architecture: iphoneos-arm
+Maintainer: Ryley Angus
+Installed-Size: 616
+Depends: mobilesubstrate, preferenceloader, applist
+Conflicts: com.ryleyangus.liberty, com.ryleyangus.libertylite
+Filename: ./debs/hounsoeun.libertylite.beta_0.2.12_iphoneos-arm.deb
+Size: 82402
+MD5sum: 7153e01f2fc369c02fbb4880acee8bdd
+SHA1: 7b42427668f5401b110e37a5a979ce102064b9bf
+SHA256: 1ac798b8e4612728b09a91d148d0c94d168cb92009cc332e031d31bf8dcd1242
+Section: Tweaks
+Description: A general purpose jailbreak detection bypass patch. Configure the Liberty Lite entry in the Settings app to block (most) apps from detecting your jailbreak. Disabling Substrate/Substitute is not currently supported. Support for both arm64e and armv7 has been enabled in this beta version.
+Author: Ryley Angus
+Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
+Name: Liberty Lite (Beta)
+
+Package: hounsoeun.myiapcracker
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: ./debs/hounsoeun.myiapcracker_1.0_iphoneos-arm.deb
+Size: 46898
+MD5sum: a400ba929b6e98cbb1b0c795e12f916d
+SHA1: da59bc0b88addcc0cc1f0c88b41d9a4468d10ae1
+SHA256: 540829ccc786854f22d3b1597d0a36d192546c780d0a5f2877e0c2b214e12fe0
+Section: Tweaks
+Description: Free in app purchase will not work on every game or app but work on lots of games and app or you can do this try it out see if it work for your game or app.
+Author: HounSoeun
+Name: My iAP Cracker
+
+Package: hounsoeun.otadisabler
+Version: 0.1-9
+Architecture: iphoneos-arm
+Maintainer: ichitaso
+Installed-Size: 204
+Depends: firmware (>= 9.0), system-cmds, mobilesubstrate
+Filename: ./debs/hounsoeun.otadisabler_0.1-9_iphoneos-arm.deb
+Size: 34954
+MD5sum: 9906615f5e2249075a7a7521554d8e81
+SHA1: 3b5339639efb474ccde1030fd55329d3edf43d9a
+SHA256: 3faca26b2ea6ea0d10f87d1ca6cfadff7464908cd9d0435d0b1f529c0f82266e
+Section: System
+Description: Delete and disable OTA badge
+Author: ichitaso
+Name: OTADisabler
+
+Package: hounsoeun.uyou
+Version: 2.1
+Architecture: iphoneos-arm
+Maintainer: MiRO <tweaks_support@miro92.com>
+Installed-Size: 31280
+Depends: firmware (>=13.0), mobilesubstrate, hounsoeun.uyouimport
+Conflicts: com.miro.easyyt, com.miro.ytnoshorts, com.ps.noytpremium, com.ps.youarethere
+Filename: ./debs/hounsoeun.uyou_2.1_iphoneos-arm.deb
+Size: 14799322
+MD5sum: 53bc949d9f7b5cea631304738734f788
+SHA1: 714214d460830a40d3a0004a9f0222377b53758e
+SHA256: d93b0dde361b0f030aaa55a6e4fc13d3d08a6fee0ac6b9559d95fb25147231fd
+Section: Tweaks
+Description: The best tweak for the YouTube app
+Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
+Author: MiRO <tweaks_support@miro92.com>
+Icon: file:////Library/Application Support/uYouBundle.bundle/icon_clipped.png
+Name: uYou
+
+Package: hounsoeun.uyouimport
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: MiRO <tweaks_support@miro92.com>
+Installed-Size: 460
+Depends: firmware (>=13.0), mobilesubstrate
+Filename: ./debs/hounsoeun.uyouimport_1.0_iphoneos-arm.deb
+Size: 144100
+MD5sum: 44abb465e1569b750910c751458e7f6d
+SHA1: 7809e0bab38ee8fdd728c65d0508f76144537cf6
+SHA256: 87ffbb966c0cd82dbaa7a4fc6104531d88da9f6a8a682db08b325275c89d4061
+Section: Tweaks
+Description: Library for importing songs/videos into the Music app.
+Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
+Author: MiRO <tweaks_support@miro92.com>
+Name: uYouImport
+
+Package: se.geometric.tweakrestrictor
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Geometric Software
+Installed-Size: 788
+Depends: mobilesubstrate, se.geometric.graphite(>=1.2), firmware(>=13.0), preferenceloader
+Filename: ./debs/se.geometric.tweakrestrictor_1.1_iphoneos-arm.deb
+Size: 47696
+MD5sum: 5562dd0d2d8f6314fb55c262055461e6
+SHA1: bef3766f258b7076be6fb8f97455f367636809fd
+SHA256: ec4d23c7d4a16991f26bec1bbda4def4e0be0c76590bc55d5c74621a3caa8ba9
+Section: Tweaks
+Description: Disable code injection in apps
+Author: Geometric Software
+Name: TweakRestrictor
+
 Package: sileoturk.limneosos
 Version: 2.0.2
 Architecture: iphoneos-arm
-Maintainer: Elias
+Maintainer: HounSoeun
 Depends: firmware ( >= 8), mobilesubstrate
 Conflicts: sileoturk.limneososs, com.trappledestek.limneosos, ru.rejail.limneosos
-Filename: ./debs/hounsoeun.limneosos_2.0.deb
-Size: 35674
-MD5sum: e4cb95f5db4dd5810beee8c6e9fb4408
-SHA1: 7cea5390f1d39eef1a9925992c793b64d1e69b9e
-SHA256: b97b6336d0e47148ef2c8e5fe40ff5ae38d608a0ef3a93f46dff2c8618737969
+Filename: ./debs/hounsoeun.limneosos_2.0.2_iphoneos-arm.deb
+Size: 36956
+MD5sum: 7ec877339eca49eb8a3188931c55c940
+SHA1: 2d2209104ffdeb5dd3461120d243dae4a0ee00d6
+SHA256: 5c349566c861a41cfe1d73fc1d5993840ad8426ff48f9970123bf00116f8d85f
 Section: Tweaks
 Priority: optional
-Author: Elias Limneos
+Description: Limneos tweak
+Author: HounSoeun
 Name: Limneos Crack
 
