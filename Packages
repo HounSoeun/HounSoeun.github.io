@@ -211,6 +211,23 @@ Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
 Author: MiRO <tweaks_support@miro92.com>
 Name: uYouImport
 
+Package: se.geometric.graphite
+Version: 1.3.3
+Architecture: iphoneos-arm
+Maintainer: Geometric Software
+Installed-Size: 1068
+Depends: firmware(>=13.0), mobilesubstrate
+Filename: ./debs/se.geometric.graphite_1.3.3_iphoneos-arm.deb
+Size: 275956
+MD5sum: 165458e3b9337f21a8eed898ac48e4ab
+SHA1: c67c0f56f55ac2dfa1687a457edfe3b8aa6a3619
+SHA256: 3b689aa4116774cfcfb02c4a24717f26c5a8ac6dd16723fbaac7abd1137ab7f1
+Section: Development
+Description: powerful library for iOS development
+Tag: purpose::library role::developer
+Author: Geometric Software
+Name: Graphite Library
+
 Package: se.geometric.tweakrestrictor
 Version: 1.1
 Architecture: iphoneos-arm
@@ -218,10 +235,10 @@ Maintainer: Geometric Software
 Installed-Size: 788
 Depends: mobilesubstrate, se.geometric.graphite(>=1.2), firmware(>=13.0), preferenceloader
 Filename: ./debs/se.geometric.tweakrestrictor_1.1_iphoneos-arm.deb
-Size: 47696
-MD5sum: 5562dd0d2d8f6314fb55c262055461e6
-SHA1: bef3766f258b7076be6fb8f97455f367636809fd
-SHA256: ec4d23c7d4a16991f26bec1bbda4def4e0be0c76590bc55d5c74621a3caa8ba9
+Size: 47692
+MD5sum: 2d5a0864911f6e1793e9ad8e189392ba
+SHA1: fc3cbd68e30e3a740be30eb8d928a43e2939698f
+SHA256: 4c4a65b8ef29edb8b2ffcdd8a826daad6f71f27d3df80224e2331f62bcb442f4
 Section: Tweaks
 Description: Disable code injection in apps
 Author: Geometric Software
