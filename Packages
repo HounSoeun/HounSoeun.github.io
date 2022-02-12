@@ -175,24 +175,6 @@ Description: Delete and disable OTA badge
 Author: ichitaso
 Name: OTADisabler
 
-Package: hounsoeun.tweakrestrictor
-Version: 1.1
-Architecture: iphoneos-arm
-Maintainer: Geometric Software
-Installed-Size: 788
-Depends: mobilesubstrate, se.geometric.graphite(>=1.2), firmware(>=13.0), preferenceloader
-Filename: ./debs/hounsoeun.tweakrestrictor_1.1_iphoneos-arm.deb
-Size: 47756
-MD5sum: a3b531b1e801e411c08827f5f8b20ce1
-SHA1: b463db275219e3fac4322338db409cabcf27a7de
-SHA256: b5ca9fb07c90cb0b177f3f963e0779cdc5b38683dbeabe06def1346a26d6fb39
-Section: Tweaks
-Description: Disable code injection in apps
-Author: Geometric Software
-Depiction: https://store.geometricsoftware.se/packages/se.geometric.tweakrestrictor
-Name: TweakRestrictor
-Sileodepiction: https://apt.geometricsoftware.se/package/se.geometric.tweakrestrictor/depiction
-
 Package: hounsoeun.uyou
 Version: 2.1
 Architecture: iphoneos-arm
@@ -228,6 +210,22 @@ Description: Library for importing songs/videos into the Music app.
 Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
 Author: MiRO <tweaks_support@miro92.com>
 Name: uYouImport
+
+Package: se.geometric.tweakrestrictor
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Geometric Software
+Installed-Size: 788
+Depends: mobilesubstrate, se.geometric.graphite(>=1.2), firmware(>=13.0), preferenceloader
+Filename: ./debs/se.geometric.tweakrestrictor_1.1_iphoneos-arm.deb
+Size: 47696
+MD5sum: 5562dd0d2d8f6314fb55c262055461e6
+SHA1: bef3766f258b7076be6fb8f97455f367636809fd
+SHA256: ec4d23c7d4a16991f26bec1bbda4def4e0be0c76590bc55d5c74621a3caa8ba9
+Section: Tweaks
+Description: Disable code injection in apps
+Author: Geometric Software
+Name: TweakRestrictor
 
 Package: sileoturk.limneosos
 Version: 2.0.2
