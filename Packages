@@ -175,6 +175,22 @@ Description: Delete and disable OTA badge
 Author: ichitaso
 Name: OTADisabler
 
+Package: hounsoeun.tweakrestrictor
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Geometric Software
+Installed-Size: 788
+Depends: mobilesubstrate, se.geometric.graphite(>=1.2), firmware(>=13.0), preferenceloader
+Filename: ./debs/hounsoeun.tweakrestrictor_1.1_iphoneos-arm.deb
+Size: 47704
+MD5sum: eb88f5bf2cab55c3f7b2ee01fb43cdb4
+SHA1: cb3beb7c1253337552fc71b26db49fd11ae4646f
+SHA256: 50d44a1728a157b52639e977841ccb9058493ea46cfdcc6ab3c980f6491b897b
+Section: Tweaks
+Description: Disable code injection in apps
+Author: Geometric Software
+Name: TweakRestrictor
+
 Package: hounsoeun.uyou
 Version: 2.1
 Architecture: iphoneos-arm
