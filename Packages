@@ -182,14 +182,16 @@ Maintainer: Geometric Software
 Installed-Size: 788
 Depends: mobilesubstrate, se.geometric.graphite(>=1.2), firmware(>=13.0), preferenceloader
 Filename: ./debs/hounsoeun.tweakrestrictor_1.1_iphoneos-arm.deb
-Size: 47704
-MD5sum: eb88f5bf2cab55c3f7b2ee01fb43cdb4
-SHA1: cb3beb7c1253337552fc71b26db49fd11ae4646f
-SHA256: 50d44a1728a157b52639e977841ccb9058493ea46cfdcc6ab3c980f6491b897b
+Size: 47756
+MD5sum: a3b531b1e801e411c08827f5f8b20ce1
+SHA1: b463db275219e3fac4322338db409cabcf27a7de
+SHA256: b5ca9fb07c90cb0b177f3f963e0779cdc5b38683dbeabe06def1346a26d6fb39
 Section: Tweaks
 Description: Disable code injection in apps
 Author: Geometric Software
+Depiction: https://store.geometricsoftware.se/packages/se.geometric.tweakrestrictor
 Name: TweakRestrictor
+Sileodepiction: https://apt.geometricsoftware.se/package/se.geometric.tweakrestrictor/depiction
 
 Package: hounsoeun.uyou
 Version: 2.1
