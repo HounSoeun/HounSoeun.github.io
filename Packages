@@ -19,19 +19,6 @@ Depiction: https://cydia.ichitaso.com/depiction/altstore.html
 Dev: Riley Testut
 Name: AltStore
 
-Package: hounsoeun.appdatamanager
-Version: 1.6.1-10
-Architecture: iphoneos-arm
-Filename: ./debs/hounsoeun.appdatamanager_1.6.1-10_iphoneos-arm.deb
-Size: 5407742
-MD5sum: c82e1c7dfe7ffe2220f2b124a36efdc7
-SHA1: f946383c2fa5ebed3888e2803adc32132a7c18ad
-SHA256: f17b2cd5978074bdb6b9d7d44dac7b552c649f4098a8538023f52ea155af8cec
-Section: Utilities
-Description: tool to WIPE, BACKUP, RESTORE AppData for installed Apps
-Author: TIGI Software
-Name: Apps Manager
-
 Package: hounsoeun.appstoreplusplusnew
 Version: 0.9.18
 Architecture: iphoneos-arm
@@ -174,6 +161,23 @@ Section: System
 Description: Delete and disable OTA badge
 Author: ichitaso
 Name: OTADisabler
+
+Package: hounsoeun.reprovision
+Version: 0.8.3~release
+Architecture: iphoneos-arm
+Maintainer: Soh Satoh
+Depends: firmware (>= 9.0)
+Conflicts: com.matchstic.reprovision
+Filename: ./debs/hounsoeun.reprovision_0.8.3~release_iphoneos-arm.deb
+Size: 16789062
+MD5sum: dbbb1878210fdfd77d383b9aa728b8ab
+SHA1: bc86487c0c5c5a17945b818c916fab11b502d24b
+SHA256: 7341008415ade477896c92fbac042f79936ac47bca04f9ac8860aa8d42aa96e6
+Section: Utilities
+Priority: optional
+Description: Re-sign applications on your device.
+Author: Soh Satoh, Matt Clarke
+Name: ReProvision Reborn
 
 Package: hounsoeun.uyou
 Version: 2.1
