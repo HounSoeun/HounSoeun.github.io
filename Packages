@@ -162,23 +162,6 @@ Description: Delete and disable OTA badge
 Author: ichitaso
 Name: OTADisabler
 
-Package: hounsoeun.reprovision
-Version: 0.8.3~release
-Architecture: iphoneos-arm
-Maintainer: Soh Satoh
-Depends: firmware (>= 9.0)
-Conflicts: com.matchstic.reprovision
-Filename: ./debs/hounsoeun.reprovision_0.8.3~release_iphoneos-arm.deb
-Size: 16789062
-MD5sum: dbbb1878210fdfd77d383b9aa728b8ab
-SHA1: bc86487c0c5c5a17945b818c916fab11b502d24b
-SHA256: 7341008415ade477896c92fbac042f79936ac47bca04f9ac8860aa8d42aa96e6
-Section: Utilities
-Priority: optional
-Description: Re-sign applications on your device.
-Author: Soh Satoh, Matt Clarke
-Name: ReProvision Reborn
-
 Package: hounsoeun.uyou
 Version: 2.1
 Architecture: iphoneos-arm
