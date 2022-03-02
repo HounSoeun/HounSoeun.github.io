@@ -178,24 +178,6 @@ Description: Delete and disable OTA badge
 Author: ichitaso
 Name: OTADisabler
 
-Package: hounsoeun.reprovision
-Version: 0.8.3~release
-Architecture: iphoneos-arm
-Maintainer: Soh Satoh
-Depends: firmware (>= 9.0)
-Conflicts: com.matchstic.reprovision
-Filename: ./debs/hounsoeun.reprovision_0.8.3~release_iphoneos-arm.deb
-Size: 16789110
-MD5sum: 2b3e739fbae10015fcad060ade5061a3
-SHA1: 0096f81d06a8cad4c2da724770f65f599c07cd92
-SHA256: 72c217aeb2b9ee3cb71f30fc615897397169e0875d28e01e660e0dc1b08b6461
-Section: Utilities
-Priority: optional
-Description: Re-sign applications on your device
-Author: Soh Satoh, Matt Clarke
-Dev: Matt Clarke
-Name: ReProvision Reborn
-
 Package: hounsoeun.secureVpn
 Version: 2.1.5
 Architecture: iphoneos-arm
@@ -245,6 +227,28 @@ Description: Library for importing songs/videos into the Music app.
 Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
 Author: MiRO <tweaks_support@miro92.com>
 Name: uYouImport
+
+Package: jp.soh.reprovision
+Version: 0.8.3~release
+Architecture: iphoneos-arm
+Maintainer: Soh Satoh <tweaks@satoh.dev>
+Depends: firmware (>=9.0), firmware (>= 9.0)
+Conflicts: com.matchstic.reprovision
+Filename: ./debs/hounsoeun.reprovision_0.8.3~release_iphoneos-arm.deb
+Size: 16941686
+MD5sum: 2a98cc0c506f3dd9348017be6b61d180
+SHA1: 4fd0ff72f99ed3d13e7456abe7c32df3309d1e23
+SHA256: ed2a0a2b3b6258cf2e9a7467b63b3d2d102611aa6b6e90da480575ee9ca64e5d
+Section: Utilities
+Homepage: https://shuga.co/
+Description: Re-sign applications on your device
+Author: Soh Satoh, Matt Clarke <tweaks@satoh.dev>
+Depiction: https://repo.satoh.dev/depiction/web/jp.soh.reprovision.html
+Icon: https://repo.satoh.dev/assets/jp.soh.reprovision/icon.png
+Moderndepiction: https://repo.satoh.dev/depiction/native/jp.soh.reprovision.json
+Name: ReProvision Reborn
+Sileodepiction: https://repo.satoh.dev/depiction/native/jp.soh.reprovision.json
+Tags: compatible_min::ios9.0, compatible_max::ios15.0
 
 Package: se.geometric.graphite
 Version: 1.3.3
