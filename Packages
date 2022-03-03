@@ -36,6 +36,20 @@ Description: Downloade update or downgrade to app store
 Author: CokePokes
 Name: AppStore++
 
+Package: hounsoeun.batchinstall
+Version: 4.3.2
+Architecture: iphoneos-arm
+Maintainer: HounSoeun
+Filename: ./debs/hounsoeun.batchinstall_4.3.2_iphoneos-arm.deb
+Size: 69220
+MD5sum: adccf56e0942b7d05d21c5f9eb631878
+SHA1: e8ffba442fdb42a2c0972e6a07276b4de97d0533
+SHA256: 0a39d812f27f0f1049aef8633cbd661818a07b5d0d5c76ee710db73de9f2a1a8
+Section: Tweaks
+Description: Batch install all of your tweaks for your setup! Created using Batchomatic v4.3.2 and iOS 13.7
+Author: HounSoeun
+Name: BatchInstall - Online
+
 Package: hounsoeun.bioprotectxs
 Version: 4.5-19
 Architecture: iphoneos-arm
