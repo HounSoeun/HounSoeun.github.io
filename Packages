@@ -36,19 +36,21 @@ Description: Downloade update or downgrade to app store
 Author: CokePokes
 Name: AppStore++
 
-Package: hounsoeun.batchinstall
+Package: hounsoeun.batchomatic
 Version: 4.3.2
 Architecture: iphoneos-arm
-Maintainer: HounSoeun
-Filename: ./debs/hounsoeun.batchinstall_4.3.2_iphoneos-arm.deb
-Size: 69204
-MD5sum: 6d34777678b9d99bd2aee7f403748a7a
-SHA1: 59453827f0886de8ce931eaa904eebd924eeee3f
-SHA256: c24b55cef14a0f4f3f26c08957bc52b6d26af00668756741d00f75a032eb9fcf
+Maintainer: Capt Inc <teamcaptinc@gmail.com>
+Installed-Size: 484
+Depends: firmware (>=11.0), mobilesubstrate, coreutils
+Filename: ./debs/hounsoeun.batchomatic_4.3.2_iphoneos-arm.deb
+Size: 109030
+MD5sum: 676a3ea1c35f3c0764efc41fabc89a4c
+SHA1: cb5488c911142a81033bed2f782846ec0f92b4d4
+SHA256: 991dae86ab7f62f12d4bcb409c8fdac9167d47660e09bbd62088ec1b1131acbb
 Section: Tweaks
-Description: Batch install all of your tweaks for your setup! Created using Batchomatic v4.3.2
-Author: HounSoeun
-Name: BatchInstall
+Description: Batch install your tweaks, repos, saved .debs, tweak preferences, and hosts file!
+Author: Capt Inc <teamcaptinc@gmail.com>
+Name: Batchomatic
 
 Package: hounsoeun.bioprotectxs
 Version: 4.5-19
