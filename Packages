@@ -69,17 +69,17 @@ Author: Elias Limneos
 Name: BioProtect XS (iOS 12/13/14)
 
 Package: hounsoeun.crane
-Version: 1.1.4-5
+Version: 1.1.5
 Architecture: iphoneos-arm
 Maintainer: opa334
-Installed-Size: 3288
-Depends: firmware (>=11.0), mobilesubstrate, com.opa334.altlist (>=1.0.5), com.rpetrich.rocketbootstrap, preferenceloader, com.opa334.libundirect (>=1.1) | firmware (<<14.0)
+Installed-Size: 2867
+Depends: firmware (>= 11.0), mobilesubstrate, com.opa334.altlist (>= 1.0.5), com.rpetrich.rocketbootstrap, preferenceloader, com.opa334.libundirect (>= 1.1) | firmware (<< 14.0)
 Conflicts: com.opa334.cranelite, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
-Filename: ./debs/hounsoeun.crane_1.1.4-5_iphoneos-arm.deb
-Size: 1065430
-MD5sum: e5dd965fd7b668614640cbe3c0761483
-SHA1: b0770fdc24cb0d45bafe9637474dc4f5031c5134
-SHA256: 5cbd4d808b5d4702909fdb2baafcad56864ebfdaea54df272dd027182bb9f0d6
+Filename: ./debs/hounsoeun.crane_1.1.5_iphoneos-arm.deb
+Size: 644824
+MD5sum: 170a0a4f124a30c9fa0bb55ce07d777b
+SHA1: a79ed4d130d1a473735a65aa98fb56413fce3f4f
+SHA256: 63cd85687125638bcf36d744d8a13049fac7eb583dd82d2d062c0cbff4c55904
 Section: Tweaks
 Description: Multiple containers for your application
 Author: opa334
