@@ -19,6 +19,24 @@ Depiction: https://cydia.ichitaso.com/depiction/altstore.html
 Dev: Riley Testut
 Name: AltStore
 
+Package: hounsoeun.appshide
+Version: 1.1-3
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 424
+Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader
+Filename: ./debs/hounsoeun.appshide_1.1-3_iphoneos-arm.deb
+Size: 107010
+MD5sum: 09e77691d207ff529f8d39ebedb91814
+SHA1: fb552af5ae9bfab15a7b31d4df31375eb8e5bd9e
+SHA256: 111c40c15fdc5809097e636a5e62bf9cd9a400a6784e97e19ba30a11b91797ca
+Section: Tweaks
+Description: Hide your Apps from SpringBoard
+    App Hider can hide your Apps from SpringBoard like the Apps are disappeared from your iPhone. So you can hide the Apps which you don't want to let others know. Hiding the Cydia, just like your iOS device is not jailbroken. Hiding the Facebook, instagram, Twitter, so that no one knows.
+Tag: purpose::extension
+Author: Netskao <netskao@gmail.com>
+Name: AppsHide
+
 Package: hounsoeun.appstoreplusplusnew
 Version: 0.9.18
 Architecture: iphoneos-arm
@@ -193,20 +211,6 @@ Section: System
 Description: Delete and disable OTA badge
 Author: ichitaso
 Name: OTADisabler
-
-Package: hounsoeun.secureVpn
-Version: 2.1.5
-Architecture: iphoneos-arm
-Maintainer: Classic
-Filename: ./debs/hounsoeun.secureVpn_2.1.deb
-Size: 36286654
-MD5sum: 78779860f9862075aca2aaa91f36592c
-SHA1: 4179dc2b25de061e613784fdead9e510c47a1a35
-SHA256: f5a0314b46d254f8af2daf4c02a28249811e9101e58f3ff6e5938ef8f71cf3a4
-Section: Tweaks
-Description: Signal Secure Vpn
-Author: @Classic
-Name: Secure Vpn
 
 Package: hounsoeun.uyou
 Version: 2.1
