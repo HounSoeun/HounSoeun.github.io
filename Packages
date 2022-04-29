@@ -54,6 +54,22 @@ Description: Downloade update or downgrade to app store
 Author: CokePokes
 Name: AppStore++
 
+Package: hounsoeun.autoscroll
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: HounSoeun
+Installed-Size: 376
+Depends: mobilesubstrate, ws.hbang.common, preferenceloader, applist, org.thebigboss.libcolorpicker
+Filename: ./debs/hounsoeun.autoscroll_1.0.3_iphoneos-arm.deb
+Size: 57662
+MD5sum: 320048731bac315ec1189ad8d45457f0
+SHA1: 6b7ccf677400bf42b8c17194f2e4427b8863b112
+SHA256: 817c5b18a68a5dfd5469496d6a003e8906971c4fae125d264f1cd9b07c087e78
+Section: Tweaks
+Author: pxcex
+Icon: https://repo.packix.com/api/Packages/5e397865536660001a197c2d/icon/download?size=medium
+Name: AutoScroll
+
 Package: hounsoeun.batchomatic
 Version: 4.3.2
 Architecture: iphoneos-arm
