@@ -198,6 +198,22 @@ Author: Ryley Angus
 Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
 Name: Liberty Lite (Beta)
 
+Package: hounsoeun.lockscreenwithoutbutton
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/hounsoeun.lockscreenwithoutbutton_0.0.1_iphoneos-arm.deb
+Size: 4562
+MD5sum: 6b5b58c7524498c326e96e5fd931b2d5
+SHA1: 04aae0f94179436c44f7ddf4225a2dd4abac2bc1
+SHA256: 841342d28564316683cd3dec892a67830df46d0190b0ef5a2650dbcaf5ecdf99
+Section: Tweaks
+Description: Lock Screen Without Button, Just Double Tap From Home
+Author: Hao Nguyen
+Name: Lock Screen Without Button
+
 Package: hounsoeun.myiapcracker
 Version: 1.0
 Architecture: iphoneos-arm
