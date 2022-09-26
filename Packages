@@ -214,22 +214,6 @@ Description: Lock Screen Without Button, Just Double Tap From Home
 Author: Hao Nguyen
 Name: Lock Screen Without Button
 
-Package: hounsoeun.lynx
-Version: 1.9.7.1
-Architecture: iphoneos-arm
-Maintainer: ReJail <rejail@rejail.ru>
-Installed-Size: 2412
-Depends: mobilesubstrate, firmware (>= 12.0), com.spark.libsparkapplist, com.spark.libsparkcolourpicker
-Filename: ./debs/hounsoeun.lynx_1.9.7.1_iphoneos-arm.deb
-Size: 1647656
-MD5sum: 0ad13277de6779df2c3e92f8f27982e5
-SHA1: be4c08993817b028958d2bd493e02e7b70a6f410
-SHA256: 74cb41fd1f37a69f287c588f52b98503bdab663ad8456c740ab806bed19bd80e
-Section: Tweaks
-Description: Customization
-Author: MTAC
-Name: Lynx
-
 Package: hounsoeun.myiapcracker
 Version: 1.0
 Architecture: iphoneos-arm
