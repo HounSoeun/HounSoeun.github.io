@@ -37,17 +37,17 @@ Tag: purpose::extension
 Author: Netskao <netskao@gmail.com>
 Name: AppsHide
 
-Package: hounsoeun.appstoreplusplusnew
-Version: 0.9.18
+Package: hounsoeun.appstoreplusplus
+Version: 0.10.1-5
 Architecture: iphoneos-arm
-Maintainer: Classic
+Maintainer: CokePokes
 Depends: firmware (>= 11.0), mobilesubstrate
-Conflicts: com.unlimapps.uaupdatetools, com.cokepokes.appstoreplusplus
-Filename: ./debs/hounsoeun.appstoreplusplusnew_0.9.18_iphoneos-arm.deb
-Size: 3440034
-MD5sum: 7a98b1a8db577956c1fc468673cc5eee
-SHA1: 675d796629725317425ed239aea7b234b794e1ae
-SHA256: a8b463b5e2f9d5a8c8a25cced066f96253fb76e4e8de360faa3977f6410cafd3
+Conflicts: com.unlimapps.uaupdatetools
+Filename: ./debs/hounsoeun.appstoreplusplus_0.10.1-5_iphoneos-arm.deb
+Size: 4624146
+MD5sum: 4dcf5d256c33b4dfca58727ba6ce4357
+SHA1: 612d98ec68208f1ede3b0e892d5378cd8c34c115
+SHA256: f5678c890728f2ec14a196ab62932b0814882830434b7f664dade5ffcdf43ff5
 Section: Tweaks
 Priority: optional
 Description: Downloade update or downgrade to app store
@@ -213,6 +213,22 @@ Section: Tweaks
 Description: Lock Screen Without Button, Just Double Tap From Home
 Author: Hao Nguyen
 Name: Lock Screen Without Button
+
+Package: hounsoeun.lynx
+Version: 1.9.7.1
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 2412
+Depends: mobilesubstrate, firmware (>= 12.0), com.spark.libsparkapplist, com.spark.libsparkcolourpicker
+Filename: ./debs/hounsoeun.lynx_1.9.7.1_iphoneos-arm.deb
+Size: 1647610
+MD5sum: 6f3cb8a59d02a6b864585889dbcd4b3f
+SHA1: cacdfb472fb6db77c493b05b2c9f4f23ba50b362
+SHA256: 18ddffbeab153e068d96866099739465f00ef9ae724627b175bdd86e9fe626f5
+Section: Tweaks
+Description: Ultimate device Customization
+Author: MTAC
+Name: Lynx
 
 Package: hounsoeun.myiapcracker
 Version: 1.0
